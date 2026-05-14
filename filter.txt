@@ -1,0 +1,270 @@
+! Title: 애드가드 갤러리 필터
+! Version: 2026.05.14
+! Description: AdGuard, uBlock Origin, Unicorn Pro, Brave Shields의 오차단 및 남은 광고와 안티 애드블록을 해결하는 실전압축 필터입니다.
+! Homepage: https://m.dcinside.com/gallog/cent8649
+
+
+! Ads
+##.ad-view
+##.banner_m
+##.happy-under-player-mobile
+##.textwidget
+##[alt$='광고']
+##[class*='ad'][id^='AD']:not([class*='address'])
+##[class^='basic-banner'][id]
+##[class^='happy-header']
+##[id^='hd_pop']
+##iframe[src*='digitalcamp.co.kr']
+##iframe[src*='targetpush.co.kr']
+*##[target='_blank']:has([src*='/banner/'])
+*$script,third-party,domain=nimi.wiki|kissjav.*
+*tcid=$all
+[$domain=/^hoohootv[0-9]*\.[a-z]{2,}/]###img_row_container
+[$domain=/^redvi[0-9]*\.com/]##div[style*="z-index: 9999"]:has(img[src*="/banners/"]), img[src*="/banners/"]
+[$domain=/^tvmon[0-9]*\.[a-z]{2,}/]##.banner_wrap2
+[$domain=/^tvwiki[0-9]*\.net/]###bannerList, #viewCover
+[$domain=/torrent[a-z0-9]*\.[a-z]{2,}/]##[href*='/ad'][target='_blank']:has(img)
+[$domain=/torrent[a-z0-9]*\.[a-z]{2,}/]##div[class$='gallery'][id] [target='_blank']:upward(1)
+[$domain=/torrentqq[0-9]*\.com/]##div.at-banner:has(a[href*="/ads/"])
+[$domain=/yadongtv[0-9]*\.[a-z]{2,}/]##div[style*="top: 215px"]:has(img[src*="/banners/"]), img[src*="/banners/"]
+a-ha.io##div[aria-label="advertisement"]
+algumon.com##div:has([data-tip^='파트너스'], div[style*='height'], ins):is(.card, .deal-2col)
+arca.live##.vrow.hybrid:has(.category-badge)
+auction.co.kr,gmarket.co.kr##.plcc_banner
+avdbs.com##.ad-btn[class*='tp']
+avsee.ru##+js(acis, decodeURI, split)
+avsee.ru##.at-main > div.main-box > .miso-post-mix .post-wrap
+avsee.ru##.at-side div.main-box:first-child
+avsee.ru##.title div[style^='width:100%']
+avsee.ru##.widget-side-box div.main-box:first-child
+avsee.ru##[alt$='gif']
+bbs.ruliweb.com##div.clear:has([style*='overflow-x'])
+bbs.ruliweb.com##tr:has(.nick[style^='display: inline-block'])
+blog.naver.com,comic.naver.com##[class*='banner_area']
+bunjang.co.kr##div[class*="ProductExternalAdsstyle"]:has(h3:has-text(비슷한 새 상품 보기))
+bunjang.co.kr##section:has(> [class*="adTitle"]):has-text(AD)
+chimhaha.net##[id^='slot']
+chimhaha.net##div[style='margin-top: 50px; ']
+chimhaha.net,seoul.co.kr,mule.co.kr##[class*='Ad']
+danawa.com,m.cafe.naver.com##[class^='banner']
+dcinside.com##li[id^='comment_']:has(p[class*='txt']:has-text(/^(https?:\/\/)[A-Za-z0-9]{2,10}(\.[a-z]{2,7}|\.co\.kr)(\/(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9_]{5,9})$/):not(:has-text(/git|g2sh|img|tebin|sendanywhe|twitter|rentry|x\.com|youtu|ibb\.co|archive\.md|t\.me|streamable|dev/i))):style(opacity: 0.1 !important;)
+ddaltube.com##+js(remove-attr, data-a, #dtube-player)
+ddaltube.com##.dtube-banner-grid, .vjs-video-ad-click-overlay, .player-banner-overlay.absolute > a.block
+dvdprime.com##[id$='top_banner']
+dvdprime.com##[id^='ad_mobile']
+ebs.co.kr##.ji_adban
+fc-info.com##div[class^='Venatus_']
+fmkorea.com##[class$='_ad']
+gall.dcinside.com##.gnb_list.clear > li:has(> [onclick])
+get*ads-*-du.a.run.app^
+gmarket.co.kr##.js-impressionable.box__head-ad
+harpi.in##div:has(> script[src])
+hygall.com##div[style='display: flex;justify-content: center; width:100%;height:100px;']
+i-boss.co.kr##div.topNoticeArea
+instiz.net##.view_top
+instiz.net##div[class^='hot_u']
+inven.co.kr,mt.co.kr##[class$='ads']
+inven.co.kr,wowtv.co.kr,damoang.net##[class*='-banner']
+jusoya.com##div.banner-widget:has(a.secure-banner-link[data-original-url])
+k-hentai.org##.my-3.container
+khan.co.kr##div[class*="banner"]:has(div[class*="ad-wrapper"])
+litomi.in##[data-juicy-ads-slot]
+m.bobaedream.co.kr##div[style$='height:50px;']
+m.cafe.daum.net##[class*='_banner']
+m.danawa.com###mdnw-main-dimm, #mdnw-main-bottomSheet-container
+m.daum.net###trendKeywordsContainer
+m.dcinside.com##.layer-bottom-popup
+m.dcinside.com##.menu-scroll-lst.swiper-wrapper > li.swiper-slide:nth-of-type(n+5)
+m.dcinside.com##.survey
+m.dcinside.com##.view-btm-con
+m.dcinside.com##li:not(.notice):has(> .detail-top-lnk)
+m.ppomppu.co.kr##.js-ad_slot.JS-div_gpt_ad
+m.ppomppu.co.kr##div:has(> ins.adsbygoogle)
+m.ppomppu.co.kr##div[style^='text-align:center;']
+m.ruliweb.com##tr:has(.nbp_container)
+m.wowtv.co.kr##.container > div[style]
+m.wowtv.co.kr,inven.co.kr##[id*='Banner']
+maplescouter.com,loawa.com###popup
+mlbpark.donga.com##[class^='coupang'], [class*='naver_place']
+mlbpark.donga.com##ul.sub_lists_today.lists > li.items:nth-of-type(6)::before
+mule.co.kr##[class*='-ad-']
+namu.news##li:has(div[style*="min-height:100px"]):has(> div > div[id*="article-a"])
+namu.wiki#$#div[class][id]:is(:empty, :has(> iframe[id^='google_ads_iframe'])) { display: none !important; }
+naver.com###sb-kh-shortents-wrap
+naver.com##.sa_mw.sa_empty_ad
+news.jtbc.co.kr##.print-hide:has-text(AD)
+nexon.com,gg,ps,xyz,loawa.com,or.kr,go.kr,ai,chat#@#[target='_blank']:has([src*='/banner/'])
+orbi.kr##div[x-data="advertisement"]
+orbi.kr##li.listAd
+pay.naver.com##div[class^='BottomAds_article']
+postype.com##div[data-sentry-component="RecommendFeedGoogleAd"]:upward(1)
+ppomppu.co.kr##.bottom > div[style]
+ppomppu.co.kr$$tr:has-text(AD)
+ppomppu.co.kr,m.ppomppu1.co.kr##[id$='_popup']
+qquing.net,ibric.org##[class*="ad-wrap"]
+rgr.kr,rgrong.net,te31.com###foot:style(height: 150px !important;)
+rgr.kr,rgrong.net,te31.com##div[style='position:relative;z-index:11;']
+ruliweb.com,ppomppu.co.kr,naver.com,daum.net,etoland.co.kr##[id$='_ad']
+search.danawa.com##[id^='powerShoppingArea']
+search.danawa.com##li[data-itemtype='adsmart']
+section.blog.naver.com##.area_advertisement
+seoul.co.kr###bottomScrollBox
+seoul.co.kr##[class^='ad']
+shopping.naver.com##div[class^="_carouselProductList_mobile_carousel_product_list_"]
+soccerline.kr##.bottBann
+svrforum.com$$ins[class="adsbygoogle"]
+tdgall.com,hygall.com##.admanager-row
+te31.com##table:has(td > script)
+teamblind.com##.coupang_gnb
+teamblind.com##[href^='https://link.coupang.com/re/AFFSDP']
+teamblind.com##div.article-list-pre:has([href^='https://link.coupang.com/re/AFFSDP'])
+teamblind.com##div.article:has(> [href^='https://link.coupang.com/re/AFFSDP'])
+teamblind.com##div.comment_area.wrap-comment[style='cursor: pointer;']
+torrentpi150.com,torrentpi160.com##.h20 +.widget-box
+torrentpi150.com,torrentpi160.com##div.col-sm-12 > .widget-box > .basic-post-gallery
+tvroom.*##.banner_l
+uppity.co.kr##.adrop-outer
+veritas-a.com##article.grid.body > div.clearfix:has(.ad-template)
+windowsforum.kr,seoul.co.kr,xportsnews.com##.ad
+wowtv.co.kr,cafe.naver.com##[class*='Banner']
+yozm.wishket.com##[data-testid^="advertisement-"], [data-testid="top-banner"]
+||*nestads.*
+||ader.naver.com/*?c=m_$all
+||dvdprime.com/file/*/banner
+||kamp.kakao.com^$app=com.kakao.talk
+||link.coupang.com/re/AFFHOME?lptag=*&amp;subid=pointlink$all,reason=수익링크
+||shortformstats.kakao.com^$app=com.kakao.talk
+||t*kor*.com/images/
+||thumb.kakaocdn.net^$app=com.kakao.talk
+||trillion.toss.im^
+!
+bamgad7.com,bamgad8.com##ul.row:has(img[src*="/file/advertise/"])
+bampt3.com,bampt4.com##.small-banners-grid, .small-ad-item
+darkgirl8.com,darkgirl9.com###adskip, #posterWrap, #main-banner
+darkgirl8.com,darkgirl9.com##.banner, a[href*="clickadu.net"]
+darkgirl8.com,darkgirl9.com%#%#//scriptlet('trusted-click-element', '#adbtn')
+jusocon1.com,jusocon2.com##.banner_box
+mingky13.net,ydparty06.net##div:is(.top-wrap, .mid-wrap, .bot-wrap):has(a.grid-asset[data-item-id])
+xxzone21.cc##[id*="main-banner"], .gplayer-ad-overlay, #popupBannerModal
+!
+!#if (adguard && adguard_app_ios && adguard_ext_safari && adguard_ext_chromium && adguard_ext_edge && adguard_ext_firefox)
+###img_row_container
+###viewCover
+##.banner_wrap2
+!#endif
+
+! Minor distractions
+arca.live##.d-lg-none.topbar-area
+arca.live##a:has(img[src*="karisuma-point-x2.png"])
+gall.dcinside.com##.dc_all
+gall.dcinside.com##.dcmedia.content_box
+gall.dcinside.com##.r_dcmedia
+gall.dcinside.com##tr[class='ub-content ']
+inven.co.kr##.inven-float-alarm
+m.blog.naver.com##div[id="blog_fe_feed"] > div > div:has([data-click-area*="fdairsmx"], [data-click-area*="fdschclip"])
+m.blog.naver.com##div[id="blog_fe_feed"] div[class^="loading_area"]
+m.cafe.naver.com###articleFeedList
+m.cafe.naver.com##.CardWrap.home_popular_articles
+m.cafe.naver.com##.FloatingJoinButton
+m.cafe.naver.com##.HomeFeedItem
+m.cafe.naver.com##.join_layer_wrap
+m.cafe.naver.com##.popular_toast_popup
+m.cafe.naver.com##.subscribe_layer_wrap
+m.dcinside.com##.outside-search-box
+m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
+m.naver.com##.chf_feed_wrap > .type_square.cc_clip_list
+m.naver.com##script#MM_search_disaster ~*
+mlbpark.donga.com##.the_hottest
+namu.wiki##div[class]:matches-css(position: sticky)
+namu.wiki##li:has(a > time):not(:has([href*='/raw/'])):upward(2)
+naver.com##div.sds-comps-vertical-layout.fds-shortents-compact-block[data-template-id="layout"]
+phdkim.net###app-smart-banner
+quasarzone.com##.best-official-news, .new-official-news, .best-official-news-container, .new-official-news-container, .new-partner-saleinfo-container
+search.dcinside.com##.right_content
+search.naver.com##.api_subject_bx div:has(.fds-aib-answer-expand-button-wrapper) ~ div:has(.fds-aib-related-question-list)
+
+! Annoyances
+cafe.naver.com##+js(remove-class, disable-select, #ct)
+fmkorea.com##+js(set, link_url, '')
+||arca.live/static/assets/js/adult.min.js
+
+! Anti-adblock
+@@||piku.co.kr^$generichide
+aagag.com##+js(set-cookie, ab, 0)
+aagag.com#$#.la { position: absolute !important; left: -3000px !important; width: 60px !important; height: 20px !important; }
+kissjav.*##+js(rmnt, script, /contextmenu|ghost|localStorage|video\-ad\-overlay|admanager/i)
+dcinside.com###moveOverlay, #gaejukimg
+m.fmkorea.com##+js(set, _make_power_link_identifier, noopFunc)
+m.fmkorea.com##script ~ div.bd_mobile.bd:matches-css(margin: /[0-5]px [0-5]px/):matches-css(padding: /[0-5]px/):remove()
+m.fmkorea.com##section.fmWidgetStyle2019.bd_mobile.bd:matches-css(margin: /[0-5]px [0-5]px/):matches-css(padding: /[0-5]px/):remove()
+namu.wiki##div:has(img[data-doc]:not([data-doc^="/jump/"]):not([data-doc^="/w/"])):not(:has([id])), div:has(> div[id]:empty:only-child)
+||maxmovie.com/_next/static/chunks/framework.aa400efa16f23e2b0cfe.js
+
+! Incorrect blocking
+$@$link[rel="manifest"]
+@@||192.168.$stealth=dpi
+@@||a*.smlog.co.kr^$app=com.nhn.android.search
+@@||ad-creative.pstatic.net^$app=com.nhn.android.search
+@@||ad-img.gmarket.com^$image,domain=m.gmarket.co.kr|auction.co.kr|www.gmarket.co.kr
+@@||ad.co.kr^$ghide
+@@||adtouch.*
+@@||arca.live^$ghide
+@@||blog.kakaocdn.net*/img.gif
+@@||code-pia.com^$stealth=dpi
+@@||fs2.joycity.com^$stealth=dpi
+@@||glonmall.com^$stealth=dpi
+@@||hanaroetf.com^$stealth=dpi
+@@||isplus.$stealth=dpi
+@@||kamp.daum.net^$xhr
+@@||koreainvestment.com^$stealth=dpi
+@@||kr^$stealth=dpi
+@@||searchad-phinf.pstatic.net^$app=com.nhn.android.search
+@@||shopping.naver.com^$stealth
+@@||slrclub.com/rss/today_photo.slr
+@@||smartstore.naver.com^$stealth
+@@||sofrano.com^$stealth=dpi
+@@||termeden.com^$stealth=dpi
+@@||tivan.naver.com^$app=com.nhn.android.search
+@@||truefriend.com^$stealth=dpi
+@@||wcs.naver.net^$domain=seorinexpress.com|naver.com
+m.fmkorea.com#@$?#*.bd.bd_mobile:not(:has(#bd_capture ~ #comment)):has(form[action="./"]:matches-css(height: auto)) { remove: true; }
+m.gmarket.co.kr#@#.ReactVirtualized__Grid__innerScrollContainer .box__banner-wrap > .box__banner--today
+m.gmarket.co.kr#@#.js-impressionable
+meeco.kr#@##cCon + aside.sidebar2
+mlbpark.donga.com#@#div[class*="_ad"]
+mlbpark.donga.com#@$#div[id^="SmartPhone_"][id$="_today"] .lists > li::before { padding-top: 0px !important; border-bottom: none !important; }
+mule.co.kr#@#.ad-mobile
+sooplive.com#@%#//scriptlet('json-prune-xhr-response', 'data.adballoon', '', 'station/video/a/view')
+www.gmarket.co.kr#@#.section__main-inner > .box__promotion .box__item > *
+||api-ao.adison.co^$badfilter
+||api.mumuglobal.com^$badfilter
+||app.appsflyer.com^$badfilter
+||dadispapi.gmarket.co.kr^$badfilter
+||exlogcollector.sooplive.com^$badfilter
+||photo.jtbc.co.kr/news/cms/etc/$badfilter
+||ssl.pstatic.net/t.static.blog/nmobile/versioning//common/lib/ntm/ntm-blog-web-*.js$badfilter
+||store-api.mumuglobal.com^$badfilter
+||tnkfactory.com^$badfilter
+
+! Malware & Spam
+||ublockdns.com^$doc
+||ublockorigin.com^$doc
+
+! Tweaks
+arca.live#%#const _s=document.documentElement.appendChild(Object.assign(document.createElement("style"),{textContent:'a.notice .vcol.col-ad .badge.badge-success,a.notice .vcol.col-id>b{visibility:hidden}'}));document.addEventListener("DOMContentLoaded",()=>{const t=document.querySelector("div.list-table");if(!t){_s.remove();return;}const s=()=>{const e=t.querySelector('a.notice[href*="/b/"]');if(!e)return;const g=e.pathname.split("/b/")[1]?.split("/")[0];if(!g)return;const b=e.querySelector(".vcol.col-ad .badge.badge-success"),i=e.querySelector(".vcol.col-id>b");if(b)b.textContent=g;if(i)i.textContent=g;if(b||i)_s.remove()};s();let r;new MutationObserver(()=>{clearTimeout(r);r=setTimeout(s,100)}).observe(t,{childList:!0,subtree:!0})});
+arca.live##+js(execute-script, document.addEventListener('click', e => {const t=e.target.closest(".comment-count");if(t){const o=t.closest("a.vrow");o&&(e.preventDefault(),e.stopImmediatePropagation(),location.href=o.href.split("?")[0]+"#comment")}}, true))
+arca.live##.vcol.col-title .comment-count:hover:style(background-color: #cccccc !important; color: white !important;)
+arca.live##.vcol.col-title .comment-count:style(display: inline-block !important; padding: 6px 5px 6px 3px !important; margin: -6px -5px -6px -3px !important; position: relative; z-index: 10;)
+dmm.co.jp#%#//scriptlet('trusted-set-cookie-reload', 'ckcy_remedied_check', 'ec_mrnhbtk', '1year', '/', '.dmm.co.jp')
+gall.dcinside.com##.img_area button.btn:style(opacity: 0.4 !important;)
+gall.dcinside.com#$#.btn_imgcmtopen { opacity: 0.4 !important; transform: translate(8px, 7px) !important; }
+gall.dcinside.com#%#//scriptlet('trusted-create-element', 'div.gallview_head:has(em.icon_write_app) > div.gall_writer > div.fl', 'span', '', 'ㅤAPP')
+gall.dcinside.com#%#//scriptlet('trusted-create-element', 'div.gallview_head:has(em.icon_write_mbl) > div.gall_writer > div.fl', 'span', '', 'ㅤMOBILE')
+gall.dcinside.com#%#//scriptlet('trusted-create-element', 'div.gallview_head:not(:has(em.icon_write_mbl)):not(:has(em.icon_write_app)) > div.gall_writer > div.fl', 'span', '', 'ㅤPC')
+m.dcinside.com#$#button.btn-imgcomment { transform: scale(0.7) translate(21.5px, 15.3px) !important; opacity: 0.6 !important; }
+m.dcinside.com#%#//scriptlet('trusted-create-element', 'div.gallview-tit-box:has(span.sp-app) > div > ul.ginfo2', 'li', '', 'APP')
+m.dcinside.com#%#//scriptlet('trusted-create-element', 'div.gallview-tit-box:has(span.sp-mweb) > div > ul.ginfo2', 'li', '', 'MOBILE')
+m.dcinside.com#%#//scriptlet('trusted-create-element', 'div.gallview-tit-box:not(:has(span.sp-icon)) > div > ul.ginfo2', 'li', '', 'PC')
+m.dcinside.com#%#//scriptlet('trusted-set-local-storage-item', 'imgSizeSetting', 'ori')
+m.youtube.com#%#setInterval(function(){var ts=document.querySelectorAll(".slim-owner-subscribe-button");for(var i=0;i<ts.length;i++){var t=ts[i];if(t.offsetParent!==null&&!t.parentElement.querySelector(".pip-btn")){var b=document.createElement("div");b.className="pip-btn";b.innerText="PiP";b.tabIndex=0;b.style.cssText="display:flex;align-items:center;justify-content:center;background-color:#f2f2f2;border-radius:18px;height:36px;padding:0 16px;margin-right:8px;font-family:Roboto,Arial,sans-serif;font-size:14px;font-weight:500;color:#0f0f0f;cursor:pointer;outline:none;user-select:none;transition:background-color 0.2s";b.onmouseover=function(){this.style.backgroundColor="#e5e5e5"};b.onmouseout=function(){this.style.backgroundColor="#f2f2f2"};b.onclick=function(e){e.preventDefault();e.stopPropagation();var v=document.querySelector("video");if(v){v.removeAttribute("disablepictureinpicture");document.pictureInPictureElement?document.exitPictureInPicture():v.requestPictureInPicture()}};b.onfocus=b.onmouseenter=function(){if(window._pipT)return;window._pipT=1;var p=document.createElement("div");p.innerText="By Gallery Filter";p.style.cssText="position:fixed;z-index:9999;padding:4px 8px;background:rgba(255,255,255,0.8);border:1px solid rgba(0,0,0,0.2);border-radius:4px;box-shadow:0 2px 5px rgba(0,0,0,0.1);backdrop-filter:blur(3px);font-size:11px;font-family:sans-serif;color:black;pointer-events:none;opacity:1;transition:opacity 0.5s ease-out;";var r=this.getBoundingClientRect();p.style.top=(r.top-30)+"px";p.style.left=(r.left+r.width/2)+"px";p.style.transform="translateX(-50%)";document.body.appendChild(p);setTimeout(function(){p.style.opacity="0";setTimeout(function(){p.remove()},500)},1500)};t.parentElement.insertBefore(b,t)}}},1000);
+!  =============== END (Maginot Line) =============== !
