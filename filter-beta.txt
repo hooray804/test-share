@@ -38,6 +38,10 @@ asked.kr##div[class^="kad_"]:has(ins.kakao_ad_area)
 ! To be added on version 2026.05.26.
 ##[alt="배너 광고 이미지"]
 
+! To be added on version 2026.05.27.
+paxnet.co.kr##.stock-ad, [class$="-banner"], [class^="dv-com-m0"]
+paxnet.co.kr##iframe[src*="/banner/"]
+
 ! Ads
 ##.ad-view
 ##.banner_m
