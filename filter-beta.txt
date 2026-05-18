@@ -13,7 +13,7 @@ ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
 ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
 
 ! Will be added in 2026.05.21
-linkareer.com##div:has(> .info-box > .ad-owner > .ad-mark)
+linkareer.com##[role="advertisement"]:not([class^="card-item"])
 linkareer.com##ins.adsbygoogle:upward(div[style*="min-height"])
 linkareer.com##div:has(> ins.adsbygoogle)
 
