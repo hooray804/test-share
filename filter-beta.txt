@@ -2,6 +2,11 @@
 ! Version: 2026.05.18.01
 ! Description: Warning: This beta version is outdated. Please do not use it.
 
+mimint.co.kr##div.banner-split-reveal
+mimint.co.kr###anchor-layer:has(.anchor-slot)
+mimint.co.kr##div.index-right-banner:has(.main-right-ad)
+ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
+ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
 
 ! Ads
 ##.ad-view
