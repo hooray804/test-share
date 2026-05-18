@@ -1,29 +1,32 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.18.02
+! Version: 2026.05.18.03
 ! Description: Warning: This beta version is outdated. Please do not use it.
 
 
 ! Beta
 
-! Will be added in 2026.05.19
+! To be added on version 2026.05.19.
 linkareer.com##[role="advertisement"]:not([class^="card-item"])
 linkareer.com##ins.adsbygoogle:upward(div[style*="min-height"])
 linkareer.com##div:has(> ins.adsbygoogle)
 
-! Will be added in 2026.05.20
+! To be added on version 2026.05.20.
 ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
 ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
 
-! Will be added in 2026.05.21
+! To be added on version 2026.05.21.
 mimint.co.kr###anchor-layer:has(.anchor-slot)
 mimint.co.kr##div.banner-split-reveal
 mimint.co.kr##div.index-right-banner:has(.main-right-ad)
 
-! Will be added in 2026.05.22
+! To be added on version 2026.05.22.
 diningcode.com##div.ad-container
 diningcode.com##div.section.naver
 diningcode.com##li:has(.PoiAdsSpacerList)
 
+! To be added on version 2026.05.23.
+fnnews.com##[id="hotPhotoArea"], [data-widget_id]
+fnnews.com##div[style*="height:"]:has(iframe, script, ins), div[style*="text-align: center"]:has(> iframe)
 
 ! Ads
 ##.ad-view
