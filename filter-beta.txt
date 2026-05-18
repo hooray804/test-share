@@ -42,6 +42,10 @@ asked.kr##div[class^="kad_"]:has(ins.kakao_ad_area)
 paxnet.co.kr##.stock-ad, [class$="-banner"], [class^="dv-com-m0"]
 paxnet.co.kr##iframe[src*="/banner/"]
 
+! To be added on version 2026.05.28.
+tiendeo.co.kr##section:has(> span:contains(광고))
+
+
 ! Ads
 ##.ad-view
 ##.banner_m
