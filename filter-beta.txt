@@ -12,6 +12,16 @@ mimint.co.kr##div.index-right-banner:has(.main-right-ad)
 ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
 ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
 
+! Will be added in 2026.05.21
+linkareer.com##div:has(> .info-box > .ad-owner > .ad-mark)
+linkareer.com##ins.adsbygoogle:upward(div[style*="min-height"])
+linkareer.com##div:has(> ins.adsbygoogle)
+
+! Will be added in 2026.05.22
+diningcode.com##div.ad-container
+diningcode.com##div.section.naver
+diningcode.com##li:has(.PoiAdsSpacerList)
+
 ! Ads
 ##.ad-view
 ##.banner_m
