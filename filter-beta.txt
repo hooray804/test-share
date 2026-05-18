@@ -10,30 +10,33 @@ linkareer.com##[role="advertisement"]:not([class^="card-item"])
 linkareer.com##ins.adsbygoogle:upward(div[style*="min-height"])
 linkareer.com##div:has(> ins.adsbygoogle)
 
-! To be added on version 2026.05.20.
-ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
-ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
+! To be edited on version 2026.05.20.
+phdkim.net##.app-smart-banner
 
 ! To be added on version 2026.05.21.
+asked.kr##div[class^="kad_"]:has(ins.kakao_ad_area)
+
+! To be added on version 2026.05.22.
 mimint.co.kr###anchor-layer:has(.anchor-slot)
 mimint.co.kr##div.banner-split-reveal
 mimint.co.kr##div.index-right-banner:has(.main-right-ad)
 
-! To be added on version 2026.05.22.
+! To be added on version 2026.05.23.
 diningcode.com##div.ad-container
 diningcode.com##div.section.naver
 diningcode.com##li:has(.PoiAdsSpacerList)
 
-! To be added on version 2026.05.23.
+! To be added on version 2026.05.24.
 fnnews.com##[id="hotPhotoArea"], [data-widget_id]
 fnnews.com##div[style*="height:"]:has(iframe, script, ins), div[style*="text-align: center"]:has(> iframe)
 
-! To be added on version 2026.05.24.
+! To be added on version 2026.05.25.
 kidd.co.kr##slidebanner
 kidd.co.kr##.product-recommendations
 
-! To be added on version 2026.05.25.
-asked.kr##div[class^="kad_"]:has(ins.kakao_ad_area)
+! To be added on version 2026.05.26.
+ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
+ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
 
 ! To be added on version 2026.05.26.
 ##[alt="배너 광고 이미지"]
