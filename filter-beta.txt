@@ -32,6 +32,9 @@ fnnews.com##div[style*="height:"]:has(iframe, script, ins), div[style*="text-ali
 kidd.co.kr##slidebanner
 kidd.co.kr##.product-recommendations
 
+! To be added on version 2026.05.25.
+asked.kr##div[class^="kad_"]:has(ins.kakao_ad_area)
+
 
 ! Ads
 ##.ad-view
