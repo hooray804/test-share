@@ -28,6 +28,11 @@ diningcode.com##li:has(.PoiAdsSpacerList)
 fnnews.com##[id="hotPhotoArea"], [data-widget_id]
 fnnews.com##div[style*="height:"]:has(iframe, script, ins), div[style*="text-align: center"]:has(> iframe)
 
+! To be added on version 2026.05.24.
+kidd.co.kr##slidebanner
+kidd.co.kr##.product-recommendations
+
+
 ! Ads
 ##.ad-view
 ##.banner_m
