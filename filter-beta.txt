@@ -48,6 +48,17 @@ paxnet.co.kr##iframe[src*="/banner/"]
 ! To be added on version 2026.05.28.
 tiendeo.co.kr##section:has(> span:contains(광고))
 
+! To be added on version 2026.05.29.
+m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
+
+! To be added on version 2026.05.30.
+maxmovie.com##div[class*="TopCenterAdBox"]
+maxmovie.com##.adMobile
+
+! To be added on version 2026.05.31.
+outstanding.kr##.Toastify__toast:has([id^="banner_"])
+outstanding.kr###top_banner_home
+
 
 ! Ads
 ##.ad-view
