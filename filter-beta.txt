@@ -59,6 +59,17 @@ maxmovie.com##div[class*="TopCenterAdBox"]
 outstanding.kr##.Toastify__toast:has([id^="banner_"])
 outstanding.kr###top_banner_home
 
+! To be added on version 2026.06.01.
+jjtv.kr##div[style*="text-align: center"]:has(> iframe)
+
+! To be added on version 2026.06.02.
+kgirls.net##.layout_pc_banner
+
+! To be added on version 2026.06.03.
+red52.kr##+js("acis", "querySelectorAll", "notice-content-wrapper")
+red52.kr##.notice-box-area
+red52.kr##.banner-pc
+red52.kr##.banner-m
 
 ! Ads
 ##.ad-view
