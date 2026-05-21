@@ -5,22 +5,8 @@
 
 ! Beta
 
-! To be added on version 2026.05.19.
-linkareer.com##[role="advertisement"]:not([class^="card-item"])
-linkareer.com##div:has(> ins.adsbygoogle)
-linkareer.com##ins.adsbygoogle:upward(div[style*="min-height"])
-
-! To be edited on version 2026.05.20.
-phdkim.net##.app-smart-banner
-
-! To be added on version 2026.05.21.
-asked.kr##div[class^="kad_"]:has(ins.kakao_ad_area)
-asked.kr##div[class*="index_"] div[class*="banner_"]
-
-! To be added on version 2026.05.22.
-mimint.co.kr###anchor-layer:has(.anchor-slot)
-mimint.co.kr##div.banner-split-reveal
-mimint.co.kr##div.index-right-banner:has(.main-right-ad)
+! To be edited on version 2026.05.22.
+xxzone21.cc##[id*="main-banner"], .gplayer-ad-overlay, #popupBannerModal
 
 ! To be added on version 2026.05.23.
 diningcode.com##div.ad-container
@@ -71,19 +57,23 @@ red52.kr##.notice-box-area
 red52.kr##.banner-pc
 red52.kr##.banner-m
 
+! To be added on version 2026.06.04.
+mimint.co.kr###anchor-layer:has(.anchor-slot)
+mimint.co.kr##div.banner-split-reveal
+mimint.co.kr##div.index-right-banner:has(.main-right-ad)
+
+
+
 ! Ads
 ##.ad-view
 ##.banner_m
 ##.happy-under-player-mobile
 ##.textwidget
 ##[alt$='광고']
-##[aria-label='배너 광고']
 ##[class*='ad'][id^='AD']:not([class*='address'])
 ##[class^='basic-banner'][id]
 ##[class^='happy-header']
 ##[id^='hd_pop']
-##iframe[src*='digitalcamp.co.kr']
-##iframe[src*='targetpush.co.kr']
 *##[target='_blank']:has([src*='/banner/'])
 *$script,third-party,domain=nimi.wiki|kissjav.*
 *tcid=$all
@@ -98,6 +88,8 @@ red52.kr##.banner-m
 a-ha.io##div[aria-label="advertisement"]
 algumon.com##div:has([data-tip^='파트너스'], div[style*='height'], ins):is(.card, .deal-2col)
 arca.live##.vrow.hybrid:has(.category-badge)
+asked.kr##div[class^="kad_"]:has(ins.kakao_ad_area)
+asked.kr##div[class*="index_"] div[class*="banner_"]
 auction.co.kr,gmarket.co.kr##.plcc_banner
 avdbs.com##.ad-btn[class*='tp']
 avsee.ru##+js(acis, decodeURI, split)
@@ -130,18 +122,20 @@ get*ads-*-du.a.run.app^
 gmarket.co.kr##.js-impressionable.box__head-ad
 harpi.in##div:has(> script[src])
 hungryapp.co.kr##.bannersww
-hungryapp.co.kr##.m-main-banner
-hungryapp.co.kr##a[aria-label="헝그리앱 배너"]
+hungryapp.co.kr##[aria-label="헝그리앱 배너"]
 hungryapp.co.kr##div.fixed-top:has(ins.adsbygoogle)
 hygall.com##div[style='display: flex;justify-content: center; width:100%;height:100px;']
 i-boss.co.kr##div.topNoticeArea
 instiz.net##.view_top
 instiz.net##div[class^='hot_u']
 inven.co.kr,mt.co.kr##[class$='ads']
-inven.co.kr,wowtv.co.kr,damoang.net##[class*='-banner']
+inven.co.kr,wowtv.co.kr,damoang.net,hungryapp.co.kr##[class*='-banner']
 jusoya.com##div.banner-widget:has(a.secure-banner-link[data-original-url])
 k-hentai.org##.my-3.container
 khan.co.kr##div[class*="banner"]:has(div[class*="ad-wrapper"])
+linkareer.com##[role="advertisement"]:not([class^="card-item"])
+linkareer.com,m.ppomppu.co.kr##div:has(> ins.adsbygoogle)
+linkareer.com##ins.adsbygoogle:upward(div[style*="min-height"])
 litomi.in##[data-juicy-ads-slot]
 m.bobaedream.co.kr##div[style$='height:50px;']
 m.cafe.daum.net##[class*='_banner']
@@ -153,7 +147,6 @@ m.dcinside.com##.survey
 m.dcinside.com##.view-btm-con
 m.dcinside.com##li:not(.notice):has(> .detail-top-lnk)
 m.ppomppu.co.kr##.js-ad_slot.JS-div_gpt_ad
-m.ppomppu.co.kr##div:has(> ins.adsbygoogle)
 m.ppomppu.co.kr##div[style^='text-align:center;']
 m.ruliweb.com##tr:has(.nbp_container)
 m.wowtv.co.kr##.container > div[style]
@@ -203,6 +196,7 @@ veritas-a.com##article.grid.body > div.clearfix:has(.ad-template)
 windowsforum.kr,seoul.co.kr,xportsnews.com##.ad
 wowtv.co.kr,cafe.naver.com##[class*='Banner']
 yozm.wishket.com##[data-testid^="advertisement-"], [data-testid="top-banner"]
+zod.kr##div[id]:has(> [target] > img)
 ||*nestads.*
 ||ader.naver.com/*?c=m_$all
 ||dvdprime.com/file/*/banner
@@ -221,6 +215,7 @@ darkgirl8.com,darkgirl9.com##.banner, a[href*="clickadu.net"]
 darkgirl8.com,darkgirl9.com%#%#//scriptlet('trusted-click-element', '#adbtn')
 jusocon1.com,jusocon2.com##.banner_box
 mingky13.net,ydparty06.net##div:is(.top-wrap, .mid-wrap, .bot-wrap):has(a.grid-asset[data-item-id])
+sbxh1.com,sbxh2.com,sbxh3.com##[aria-label*='배너']
 xxzone21.cc##[id*="main-banner"], .gplayer-ad-overlay, #popupBannerModal
 !
 !#if (adguard && adguard_app_ios && adguard_ext_safari && adguard_ext_chromium && adguard_ext_edge && adguard_ext_firefox)
@@ -254,7 +249,7 @@ mlbpark.donga.com##.the_hottest
 namu.wiki##div[class]:matches-css(position: sticky)
 namu.wiki##li:has(a > time):not(:has([href*='/raw/'])):upward(2)
 naver.com##div.sds-comps-vertical-layout.fds-shortents-compact-block[data-template-id="layout"]
-phdkim.net###app-smart-banner
+phdkim.net##.app-smart-banner
 quasarzone.com##.best-official-news, .new-official-news, .best-official-news-container, .new-official-news-container, .new-partner-saleinfo-container
 search.dcinside.com##.right_content
 search.naver.com##.api_subject_bx div:has(.fds-aib-answer-expand-button-wrapper) ~ div:has(.fds-aib-related-question-list)
@@ -266,6 +261,7 @@ fmkorea.com##+js(set, link_url, '')
 
 ! Anti-adblock
 @@||piku.co.kr^$generichide
+@@||sbxh*.com^$generichide
 aagag.com##+js(set-cookie, ab, 0)
 aagag.com#$#.la { position: absolute !important; left: -3000px !important; width: 60px !important; height: 20px !important; }
 kissjav.*##+js(rmnt, script, /contextmenu|ghost|localStorage|video\-ad\-overlay|admanager/i)
@@ -274,6 +270,8 @@ m.fmkorea.com##+js(set, _make_power_link_identifier, noopFunc)
 m.fmkorea.com##script ~ div.bd_mobile.bd:matches-css(margin: /[0-5]px [0-5]px/):matches-css(padding: /[0-5]px/):remove()
 m.fmkorea.com##section.fmWidgetStyle2019.bd_mobile.bd:matches-css(margin: /[0-5]px [0-5]px/):matches-css(padding: /[0-5]px/):remove()
 namu.wiki##div:has(img[data-doc]:not([data-doc^="/jump/"]):not([data-doc^="/w/"])):not(:has([id])), div:has(> div[id]:empty:only-child)
+sbxh1.com,sbxh2.com,sbxh3.com##+js(nosiif, , 700)
+sbxh1.com,sbxh2.com,sbxh3.com#%#(function(){try{document.cookie="ntk_blk=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";localStorage.removeItem("ntk_blk");localStorage.removeItem("ntk_dev_warn")}catch(e){}const t=window.getComputedStyle;window.getComputedStyle=function(e,n){return e&&(e.hasAttribute("data-adblock-bait")||e.hasAttribute("data-adblock-root")||"1"===e.getAttribute("data-br"))?{display:"block",visibility:"visible",opacity:"1"}:t.apply(this,arguments)};const e=window.fetch;window.fetch=function(t,n){const r="string"==typeof t?t:t instanceof URL?t.href:t&&t.url?t.url:"";return r.includes("/api/me/block-check")||r.includes("/api/dev-block")?Promise.resolve(new Response(JSON.stringify({ok:!0,blocked:!1}),{status:200,headers:{"content-type":"application/json"}})):e.apply(this,arguments)};try{const t=Storage.prototype.setItem,e=Storage.prototype.getItem;Storage.prototype.setItem=function(e,n){if("ntk_blk"!==e&&"ntk_dev_warn"!==e)return t.apply(this,arguments)},Storage.prototype.getItem=function(t){return"ntk_blk"===t?null:"ntk_blk_ok"===t?String(Date.now()):e.apply(this,arguments)}}catch(t){}try{const t=Object.getOwnPropertyDescriptor(IDBRequest.prototype,"result"),e=t.get;Object.defineProperty(IDBRequest.prototype,"result",{get:function(){return this.__ntk?void 0:e.call(this)},configurable:!0});const n=IDBObjectStore.prototype.get;IDBObjectStore.prototype.get=function(t){const e=n.apply(this,arguments);return"ntk_blk"===t&&(e.__ntk=!0),e}}catch(t){}})();
 ||maxmovie.com/_next/static/chunks/framework.aa400efa16f23e2b0cfe.js
 
 ! Incorrect blocking
@@ -368,7 +366,6 @@ www.google.com##.MjjYud:not(:has([data-id="mosaic"])):has(a[href*=".yachts/"])
 
 ! Tweaks
 arca.live#%#const _s=document.documentElement.appendChild(Object.assign(document.createElement("style"),{textContent:'a.notice .vcol.col-ad .badge.badge-success,a.notice .vcol.col-id>b{visibility:hidden}'}));document.addEventListener("DOMContentLoaded",()=>{const t=document.querySelector("div.list-table");if(!t){_s.remove();return;}const s=()=>{const e=t.querySelector('a.notice[href*="/b/"]');if(!e)return;const g=e.pathname.split("/b/")[1]?.split("/")[0];if(!g)return;const b=e.querySelector(".vcol.col-ad .badge.badge-success"),i=e.querySelector(".vcol.col-id>b");if(b)b.textContent=g;if(i)i.textContent=g;if(b||i)_s.remove()};s();let r;new MutationObserver(()=>{clearTimeout(r);r=setTimeout(s,100)}).observe(t,{childList:!0,subtree:!0})});
-arca.live##+js(execute-script, document.addEventListener('click', e => {const t=e.target.closest(".comment-count");if(t){const o=t.closest("a.vrow");o&&(e.preventDefault(),e.stopImmediatePropagation(),location.href=o.href.split("?")[0]+"#comment")}}, true))
 arca.live##.vcol.col-title .comment-count:hover:style(background-color: #cccccc !important; color: white !important;)
 arca.live##.vcol.col-title .comment-count:style(display: inline-block !important; padding: 6px 5px 6px 3px !important; margin: -6px -5px -6px -3px !important; position: relative; z-index: 10;)
 dmm.co.jp#%#//scriptlet('trusted-set-cookie-reload', 'ckcy_remedied_check', 'ec_mrnhbtk', '1year', '/', '.dmm.co.jp')
