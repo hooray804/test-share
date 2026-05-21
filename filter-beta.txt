@@ -59,7 +59,8 @@ mimint.co.kr###anchor-layer:has(.anchor-slot)
 mimint.co.kr##div.banner-split-reveal
 mimint.co.kr##div.index-right-banner:has(.main-right-ad)
 
-
+! To be added on version 2026.06.05.
+jusowhy.com##div.banner_list
 
 ! Ads
 ##.ad-view
