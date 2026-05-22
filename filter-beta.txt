@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.23.01
+! Version: 2026.05.23.02
 ! Description: Warning: This beta version is outdated. Please do not use it.
 
 
@@ -60,10 +60,6 @@ jusowhy.com##div.banner_list
 
 ! To be added on version 2026.06.06.
 jusomoa.site##div.jmoa-banner-grid
-
-fxfx324.com,wftoon210.com##div.top-banner
-wtwt327.com##div.banner
-tkor119.com##[class*="bancol"]
 
 ! Ads
 ##.ad-view
