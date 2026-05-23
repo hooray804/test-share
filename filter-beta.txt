@@ -58,6 +58,8 @@ mimint.co.kr##div.index-right-banner:has(.main-right-ad)
 ! To be added on version 2026.06.05.
 jusowhy.com##div.banner_list
 
+! To be added on version 2026.06.06.
+jusomoa.site##div.jmoa-banner-grid
 
 ! Ads
 ##.ad-view
