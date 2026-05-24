@@ -1,13 +1,10 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.23.04
+! Version: 2026.05.24.1
 ! Description: Warning: This beta version is outdated. Please do not use it.
 
 
 ! Beta
 
-! To be added on version 2026.05.24.
-fnnews.com##[id="hotPhotoArea"], [data-widget_id]
-fnnews.com##div[style*="height:"]:has(iframe, script, ins), div[style*="text-align: center"]:has(> iframe)
 
 ! To be added on version 2026.05.25.
 kidd.co.kr##.product-recommendations
