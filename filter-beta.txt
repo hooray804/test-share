@@ -6,12 +6,8 @@
 ! Beta
 
 
-! To be added on version 2026.05.26.
-community.rememberapp.co.kr##[alt="배너 광고 이미지"]
-
 ! To be added on version 2026.05.27.
-paxnet.co.kr##.stock-ad, [class^="dv-com-m0"]
-paxnet.co.kr##iframe[src*="/banner/"]
+community.rememberapp.co.kr##[alt="배너 광고 이미지"]
 
 ! To be added on version 2026.05.28.
 tiendeo.co.kr##section:has(> span:contains(광고))
@@ -50,6 +46,9 @@ jusowhy.com##div.banner_list
 ! To be added on version 2026.06.06.
 jusomoa.site##div.jmoa-banner-grid
 
+! To be added on version 2026.06.07.
+paxnet.co.kr##.stock-ad, [class^="dv-com-m0"]
+paxnet.co.kr##iframe[src*="/banner/"]
 
 ! Ads
 ##.ad-view
