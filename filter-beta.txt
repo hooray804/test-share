@@ -1,10 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.26.3
+! Version: 2026.05.26.4
 ! Description: WARNING This beta version may be outdated. Do not use it.
 
 
 ! Beta
-
 
 ! To be added on version 2026.05.27.
 community.rememberapp.co.kr##[alt="배너 광고 이미지"]
@@ -31,9 +30,7 @@ kgirls.net##.layout_pc_banner
 
 ! To be added on version 2026.06.03.
 red52.kr##+js("acis", "querySelectorAll", "notice-content-wrapper")
-red52.kr##.notice-box-area
-red52.kr##.banner-pc
-red52.kr##.banner-m
+red52.kr##.notice-box-area, .banner-pc, .banner-m
 
 ! To be added on version 2026.06.04.
 mimint.co.kr###anchor-layer:has(.anchor-slot)
