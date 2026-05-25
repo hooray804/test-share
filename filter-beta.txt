@@ -1,6 +1,6 @@
 ! Title: AdGuard Gallery Filter Beta
 ! Version: 2026.05.26.2
-! Description: Warning: This beta version is outdated. Please do not use it.
+! Description: Warning: This beta version can be outdated. Please do not use it.
 
 
 ! Beta
