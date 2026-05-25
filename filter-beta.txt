@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.26.5
+! Version: 2026.05.26.6
 ! Description: WARNING This beta version may be outdated. Do not use it.
 
 
@@ -50,6 +50,8 @@ paxnet.co.kr##iframe[src*="/banner/"]
 ! To be added on version 2026.06.08.
 redbogo.com##.ad-banner-section
 
+! To be added on version 2026.06.09.
+gangmom.kr##.banner-wrapper
 
 ! Ads
 ##.ad-view
