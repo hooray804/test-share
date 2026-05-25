@@ -48,8 +48,7 @@ paxnet.co.kr##.stock-ad, [class^="dv-com-m0"]
 paxnet.co.kr##iframe[src*="/banner/"]
 
 ! To be added on version 2026.06.08.
-redbogo.com##div.ad-banner-section
-redbogo.com##+js(trusted-click-element, #ageGateModal .rg-btn-enter)
+redbogo.com##.ad-banner-section
 
 
 ! Ads
