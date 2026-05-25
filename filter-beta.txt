@@ -1,14 +1,10 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.25.2
+! Version: 2026.05.26.1
 ! Description: Warning: This beta version is outdated. Please do not use it.
 
 
 ! Beta
 
-
-! To be added on version 2026.05.26.
-ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
-ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
 
 ! To be added on version 2026.05.26.
 community.rememberapp.co.kr##[alt="배너 광고 이미지"]
