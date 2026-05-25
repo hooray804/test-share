@@ -1,6 +1,6 @@
 ! Title: 애드가드 갤러리 필터 for test
 ! Version: 2026.05.16.0
-! Description: AdGuard, uBlock Origin, Unicorn Pro, Brave Shields의 오차단 및 남은 광고와 안티 애드블록을 해결하는 실전압축 필터입니다.
+! Description: 갤러리 필터가 아닙니다. 절대 사용하지 마세요.
 ! Homepage: https://m.dcinside.com/gallog/cent8649
 
 ! Minor distractions
