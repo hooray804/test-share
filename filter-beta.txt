@@ -1,12 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.26.6
+! Version: 2026.05.27.1
 ! Description: WARNING This beta version may be outdated. Do not use it.
 
 
 ! Beta
-
-! To be added on version 2026.05.27.
-community.rememberapp.co.kr##[alt="배너 광고 이미지"]
 
 ! To be added on version 2026.05.28.
 tiendeo.co.kr##section:has(> span:contains(광고))
@@ -95,6 +92,7 @@ bunjang.co.kr##section:has(> [class*="adTitle"]):has-text(AD)
 chimhaha.net##[id^='slot']
 chimhaha.net##div[style='margin-top: 50px; ']
 chimhaha.net,seoul.co.kr,mule.co.kr##[class*='Ad']
+community.rememberapp.co.kr##[alt="배너 광고 이미지"]
 danawa.com,m.cafe.naver.com##[class^='banner']
 dcinside.com##li[id^='comment_']:has(p[class*='txt']:has-text(/^(https?:\/\/)[A-Za-z0-9]{2,10}(\.[a-z]{2,7}|\.co\.kr)(\/(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9_]{5,9})$/):not(:has-text(/git|g2sh|img|tebin|sendanywhe|twitter|rentry|x\.com|youtu|ibb\.co|archive\.md|t\.me|streamable|dev/i))):style(opacity: 0.1 !important;)
 ddaltube.com##+js(remove-attr, data-a, #dtube-player)
