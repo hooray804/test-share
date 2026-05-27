@@ -53,6 +53,8 @@ jusowhy.com##div.banner_list
 ! To be added on version 2026.06.10.
 jusomoa.site##div.jmoa-banner-grid
 
+! To be added on version 2026.06.11.
+3rd.supply##.h-hori-ad
 
 ! Ads
 ##.ad-view
