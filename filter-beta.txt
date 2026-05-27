@@ -9,8 +9,8 @@
 gaykorea.net,yoboyobo.kr##div[class^="m-b-"]:has(> div > p.powered), .cu_gallery-item, .product_viewpage-latest, .main-slider
 
 ! To be added on version 2026.05.30.
-maxmovie.com##.adMobile
-maxmovie.com##div[class*="TopCenterAdBox"]
+search.naver.com##.api_subject_bx div:has(.fds-aib-answer-expand-button-wrapper:not([style*="none"])) + div
+search.naver.com##.api_subject_bx div:has(.fds-aib-answer-expand-button-wrapper:not([style*="none"])) + div + div
 
 ! To be added on version 2026.05.31.
 outstanding.kr##.Toastify__toast:has([id^="banner_"])
@@ -58,6 +58,10 @@ tiendeo.co.kr##section:has(> span:contains(광고))
 
 ! To be added on version 2026.06.13.
 jusowhy.com##div.banner_list
+
+! To be added on version 2026.06.14.
+maxmovie.com##.adMobile
+maxmovie.com##div[class*="TopCenterAdBox"]
 
 ! Ads
 ##.ad-view
