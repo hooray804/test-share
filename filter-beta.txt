@@ -1,12 +1,14 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.27.4
-! Description: WARNING This beta version may be outdated. Do not use it.
+! Version: 2026.05.27.5
+! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 
 ! Beta
 
 ! To be added on version 2026.05.28.
-tiendeo.co.kr##section:has(> span:contains(광고))
+postshare.co.kr###adWallContainer
+postshare.co.kr###blurredContentArea:style(filter: none !important; -webkit-filter: none !important; opacity: 1 !important; pointer-events: auto !important; user-select: auto !important;)
+postshare.co.kr##div:has(> a[href^="http"]:not([href*="postshare.co.kr"]) > img)
 
 ! To be added on version 2026.05.29.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
@@ -55,6 +57,9 @@ jusomoa.site##div.jmoa-banner-grid
 
 ! To be added on version 2026.06.11.
 3rd.supply##.h-hori-ad
+
+! To be added on version 2026.06.12.
+tiendeo.co.kr##section:has(> span:contains(광고))
 
 
 ! Ads
