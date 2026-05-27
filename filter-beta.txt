@@ -1,14 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.27.6
+! Version: 2026.05.28.1
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 
 ! Beta
-
-! To be added on version 2026.05.28.
-postshare.co.kr###adWallContainer
-postshare.co.kr###blurredContentArea:style(filter: none !important; -webkit-filter: none !important; opacity: 1 !important; pointer-events: auto !important; user-select: auto !important;)
-postshare.co.kr##div:has(> a > img[src*="/images/banner/"])
 
 ! To be added on version 2026.05.29.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
@@ -172,6 +167,9 @@ orbi.kr##div[x-data="advertisement"]
 orbi.kr##li.listAd
 pay.naver.com##div[class^='BottomAds_article']
 postype.com##div[data-sentry-component="RecommendFeedGoogleAd"]:upward(1)
+postshare.co.kr###adWallContainer
+postshare.co.kr###blurredContentArea:style(filter: none !important; -webkit-filter: none !important; opacity: 1 !important; pointer-events: auto !important; user-select: auto !important;)
+postshare.co.kr##div:has(> a > img[src*="/images/banner/"])
 ppomppu.co.kr##.bottom > div[style]
 ppomppu.co.kr##tr[id*="_list_ad_"]
 ppomppu.co.kr$$tr:has-text(AD)
