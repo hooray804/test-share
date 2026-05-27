@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.27.5
+! Version: 2026.05.27.6
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 
@@ -8,7 +8,7 @@
 ! To be added on version 2026.05.28.
 postshare.co.kr###adWallContainer
 postshare.co.kr###blurredContentArea:style(filter: none !important; -webkit-filter: none !important; opacity: 1 !important; pointer-events: auto !important; user-select: auto !important;)
-postshare.co.kr##div:has(> a[href^="http"]:not([href*="postshare.co.kr"]) > img)
+postshare.co.kr##div:has(> a > img[src*="/images/banner/"])
 
 ! To be added on version 2026.05.29.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
