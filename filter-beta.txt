@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.28.3
+! Version: 2026.05.28.4
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 
@@ -8,7 +8,7 @@
 ! To be added on version 2026.05.29.
 gaykorea.net,yoboyobo.kr##div[class^="m-b-"]:has(> div > p.powered), .cu_gallery-item, .product_viewpage-latest, .main-slider
 
-! To be added on version 2026.05.30.
+! To be edited on version 2026.05.30.
 search.naver.com##.api_subject_bx div:has(.fds-aib-answer-expand-button-wrapper:not([style*="none"])) + div
 search.naver.com##.api_subject_bx div:has(.fds-aib-answer-expand-button-wrapper:not([style*="none"])) + div + div
 
@@ -49,6 +49,7 @@ m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
 
 ! To be added on version 2026.06.10.
 jusomoa.site##div.jmoa-banner-grid
+jusowhy.com##div.banner_list
 
 ! To be added on version 2026.06.11.
 3rd.supply##.h-hori-ad
@@ -57,11 +58,15 @@ jusomoa.site##div.jmoa-banner-grid
 tiendeo.co.kr##section:has(> span:contains(광고))
 
 ! To be added on version 2026.06.13.
-jusowhy.com##div.banner_list
+mmzone.co.kr##.m-center-adt-container
 
 ! To be added on version 2026.06.14.
 maxmovie.com##.adMobile
 maxmovie.com##div[class*="TopCenterAdBox"]
+
+! To be added on version 2026.06.15.
+battlepage.com##div[style$="min-height:200px;"]:has(ins.adsbyaiinad)
+
 
 ! Ads
 ##.ad-view
