@@ -1,12 +1,10 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.28.5
+! Version: 2026.05.29.1
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 
 ! Beta
 
-! To be added on version 2026.05.29.
-gaykorea.net,yoboyobo.kr##div[class^="m-b-"]:has(> div > p.powered), .cu_gallery-item, .product_viewpage-latest, .main-slider
 
 ! To be edited on version 2026.05.30.
 search.naver.com##.api_subject_bx div:has(.fds-aib-answer-expand-button-wrapper:not([style*="none"])) + div
@@ -129,6 +127,7 @@ fmkorea.com##[class$='_ad']
 fnnews.com##[id="hotPhotoArea"], [data-widget_id]
 fnnews.com##div[style*="height:"]:has(iframe, script, ins), div[style*="text-align: center"]:has(> iframe)
 gall.dcinside.com##.gnb_list.clear > li:has(> [onclick])
+gaykorea.net,yoboyobo.kr##.cu_gallery-item, .main-slider, .product_viewpage-latest, div[class^="m-b-"]:has(> div > p.powered)
 get*ads-*-du.a.run.app^
 ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
 ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
