@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.29.3
+! Version: 2026.05.29.4
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 
@@ -69,6 +69,10 @@ battlepage.com##div[style$="min-height:200px;"]:has(ins.adsbyaiinad)
 
 ! To be added on version 2026.06.16.
 tvseoul.kr##div[style*="width:360px"][style*="height:300px"]
+
+! To be added on version 2026.06.17.
+m.anewsa.com##div[style*="width:300px"]
+
 
 ! Ads
 ##.ad-view
