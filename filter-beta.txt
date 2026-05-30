@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.31.1
+! Version: 2026.05.31.2
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 
@@ -39,8 +39,8 @@ gangmom.kr##.banner-wrapper
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
 
 ! To be added on version 2026.06.10.
-jusomoa.site##div.jmoa-banner-grid
-jusowhy.com##div.banner_list
+jusomoa.site##.jmoa-banner-grid
+jusowhy.com##.banner_list
 
 ! To be added on version 2026.06.11.
 3rd.supply##.h-hori-ad
