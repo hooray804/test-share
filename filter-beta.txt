@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.31.7
+! Version: 2026.05.31.8
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 ! Beta
@@ -62,6 +62,9 @@ tvseoul.kr##div[style*="width:360px"][style*="height:300px"]
 
 ! To be added on version 2026.06.17.
 jjtv.kr##div[style*="text-align: center"]:has(> iframe)
+
+! To be added on version 2026.06.18.
+khan.co.kr##[class^="ad-art-"]
 
 
 ! Ads
