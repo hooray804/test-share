@@ -66,6 +66,8 @@ jjtv.kr##div[style*="text-align: center"]:has(> iframe)
 ! To be added on version 2026.06.18.
 khan.co.kr##[class^="ad-art-"]
 
+! To be added on version 2026.06.18.
+yonhapnewstv.co.kr##.view-ad-center
 
 ! Ads
 ##.ad-view
