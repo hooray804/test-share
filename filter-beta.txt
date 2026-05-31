@@ -1,13 +1,13 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.31.11
-! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
+! Version: 2026.05.31.12
+! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
 ! To be added on version 2026.06.01
+coinpan.com##li:has(> span.wgp_ad)
 coinpan.com##li:has(ins.adsbygoogle)
 coinpan.com##p > strong > span:contains(AD):upward(p)
-coinpan.com##li:has(> span.wgp_ad)
 
 ! To be added on version 2026.06.02.
 kgirls.net##.layout_pc_banner
