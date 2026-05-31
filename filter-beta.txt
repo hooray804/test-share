@@ -1,12 +1,13 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.31.8
+! Version: 2026.05.31.9
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do not use it.
 
 ! Beta
 
 ! To be added on version 2026.06.01
-outstanding.kr##.Toastify__toast:has([id^="banner_"])
-outstanding.kr###top_banner_home
+coinpan.com##li:has(ins.adsbygoogle)
+coinpan.com##p > strong > span:contains(AD):upward(p)
+coinpan.com##li:has(> span.wgp_ad)
 
 ! To be added on version 2026.06.02.
 kgirls.net##.layout_pc_banner
@@ -66,8 +67,12 @@ jjtv.kr##div[style*="text-align: center"]:has(> iframe)
 ! To be added on version 2026.06.18.
 khan.co.kr##[class^="ad-art-"]
 
-! To be added on version 2026.06.18.
+! To be added on version 2026.06.19.
 yonhapnewstv.co.kr##.view-ad-center
+
+! To be added on version 2026.06.20.
+outstanding.kr##.Toastify__toast:has([id^="banner_"])
+outstanding.kr###top_banner_home
 
 ! Ads
 ##.ad-view
