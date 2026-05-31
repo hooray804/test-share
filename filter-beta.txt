@@ -1,13 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.05.31.12
+! Version: 2026.06.01.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
-! To be added on version 2026.06.01
-coinpan.com##li:has(> span.wgp_ad)
-coinpan.com##li:has(ins.adsbygoogle)
-coinpan.com##p > strong > span:contains(AD):upward(p)
 
 ! To be added on version 2026.06.02.
 kgirls.net##.layout_pc_banner
@@ -119,6 +115,9 @@ bunjang.co.kr##section:has(> [class*="adTitle"]):has-text(AD)
 chimhaha.net##[id^='slot']
 chimhaha.net##div[style='margin-top: 50px; ']
 chimhaha.net,seoul.co.kr,mule.co.kr##[class*='Ad']
+coinpan.com##li:has(> span.wgp_ad)
+coinpan.com##li:has(ins.adsbygoogle)
+coinpan.com##p > strong > span:contains(AD):upward(p)
 community.rememberapp.co.kr##[alt="배너 광고 이미지"]
 damoang.net##.dm-card:has(#gam-index-top-damoang-banner-index)
 danawa.com,m.cafe.naver.com##[class^='banner']
