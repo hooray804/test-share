@@ -4,9 +4,6 @@
 
 ! Beta
 
-
-! To be added on version 2026.06.02.
-
 ! To be added on version 2026.06.03.
 red52.kr##+js("acis", "querySelectorAll", "notice-content-wrapper")
 red52.kr##.notice-box-area, .banner-pc, .banner-m
