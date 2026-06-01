@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.01.2
+! Version: 2026.06.01.3
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
@@ -247,10 +247,10 @@ bampt3.com,bampt4.com##.small-banners-grid, .small-ad-item, .premium-banner-wrap
 darkgirl8.com###adskip, #posterWrap, #main-banner
 darkgirl8.com##.banner, a[href*="clickadu.net"]
 darkgirl8.com#%#//scriptlet('trusted-click-element', '#adbtn')
-fxfx325.com,fxfx326.com,wftoon213.com,wftoon214.com##div.top-banner
+fxfx325.com,fxfx326.com,fxfx327.com,wftoon213.com,wftoon214.com,wftoon215.com##div.top-banner
 jusocon1.com,jusocon2.com##.banner_box
-mingky13.net,ydparty08.net##div:is(.top-wrap, .mid-wrap, .bot-wrap):has(a.grid-asset[data-item-id])
-sbxh1.com,sbxh2.com,sbxh3.com##[data-pm-ov="1"]
+mingky.live,ydparty.tv##div:is(.top-wrap, .mid-wrap, .bot-wrap):has(a.grid-asset[data-item-id])
+sbxh3.com,sbxh4.com,sbxh5.com##[data-pm-ov="1"]
 tkor121.com##.main_top_bann
 wtwt328.com,wtwt329.com##div.banner
 xxzone23.top,xxzone24.top##[id*="main-banner"], .gplayer-ad-overlay, #popupBannerModal
