@@ -1,12 +1,11 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.01.3
+! Version: 2026.06.02.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
 
 ! To be added on version 2026.06.02.
-m.anewsa.com##div[style*="width:300px"]
 
 ! To be added on version 2026.06.03.
 red52.kr##+js("acis", "querySelectorAll", "notice-content-wrapper")
@@ -74,6 +73,7 @@ tvroom13.org##a[href*="/banner/"]
 
 ! To be added on version 2026.06.22.
 ||bokuennews.com/data/banner
+
 
 ! Ads
 ##.ad-view
@@ -165,6 +165,7 @@ linkareer.com##[role="advertisement"]:not([class^="card-item"])
 linkareer.com,m.ppomppu.co.kr##div:has(> ins.adsbygoogle)
 linkareer.com##ins.adsbygoogle:upward(div[style*="min-height"])
 litomi.in##[data-juicy-ads-slot]
+m.anewsa.com##div[style*="width:300px"]
 m.bobaedream.co.kr##div[style$='height:50px;']
 m.cafe.daum.net##[class*='_banner']
 m.danawa.com###mdnw-main-dimm, #mdnw-main-bottomSheet-container
@@ -176,6 +177,7 @@ m.dcinside.com##.view-btm-con
 m.dcinside.com##li:not(.notice):has(> .detail-top-lnk)
 m.ppomppu.co.kr##.js-ad_slot.JS-div_gpt_ad
 m.ppomppu.co.kr##div[style^='text-align:center;']
+m.ruliweb.com##.board_bottom > .ruli_delayed_ad_slot
 m.ruliweb.com##tr:has(.nbp_container)
 m.wowtv.co.kr##.container > div[style]
 m.wowtv.co.kr,inven.co.kr##[id*='Banner']
@@ -262,7 +264,6 @@ xxzone23.top,xxzone24.top##[id*="main-banner"], .gplayer-ad-overlay, #popupBanne
 !#endif
 
 ! Minor distractions
-arca.live##.d-lg-none.topbar-area
 arca.live##a:has(img[src*="karisuma-point-x2.png"])
 gall.dcinside.com##.dc_all
 gall.dcinside.com##.dcmedia.content_box
