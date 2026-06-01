@@ -1,13 +1,12 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.01.0
+! Version: 2026.06.01.1
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
 
 ! To be added on version 2026.06.02.
-kgirls.net##.layout_pc_banner
-tvroom13.org##a[href*="/banner/"]
+m.anewsa.com##div[style*="width:300px"]
 
 ! To be added on version 2026.06.03.
 red52.kr##+js("acis", "querySelectorAll", "notice-content-wrapper")
@@ -19,7 +18,7 @@ mimint.co.kr##div.banner-split-reveal
 mimint.co.kr##div.index-right-banner:has(.main-right-ad)
 
 ! To be added on version 2026.06.05.
-m.anewsa.com##div[style*="width:300px"]
+kgirls.net##.layout_pc_banner
 
 ! To be added on version 2026.06.06.
 paxnet.co.kr##.stock-ad, [class^="dv-com-m0"]
@@ -71,6 +70,11 @@ yonhapnewstv.co.kr##.view-ad-center
 outstanding.kr##.Toastify__toast:has([id^="banner_"])
 outstanding.kr###top_banner_home
 
+! To be added on version 2026.06.21.
+tvroom13.org##a[href*="/banner/"]
+
+! To be added on version 2026.06.22.
+||bokuennews.com/data/banner
 
 ! Ads
 ##.ad-view
