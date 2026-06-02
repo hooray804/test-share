@@ -1,12 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.02.1
+! Version: 2026.06.03.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
-! To be added on version 2026.06.03.
-red52.kr##+js("acis", "querySelectorAll", "notice-content-wrapper")
-red52.kr##.notice-box-area, .banner-pc, .banner-m
 
 ! To be added on version 2026.06.04.
 mimint.co.kr###anchor-layer:has(.anchor-slot)
@@ -204,6 +201,7 @@ ppomppu.co.kr##tr[id*="_list_ad_"]
 ppomppu.co.kr$$tr:has-text(AD)
 ppomppu.co.kr,m.ppomppu1.co.kr##[id$='_popup']
 qquing.net,ibric.org##[class*="ad-wrap"]
+red52.kr##.notice-box-area, .banner-pc, .banner-m
 rgr.kr,rgrong.net,te31.com###foot:style(height: 150px !important;)
 rgr.kr,rgrong.net,te31.com##div[style='position:relative;z-index:11;']
 ruliweb.com,ppomppu.co.kr,naver.com,daum.net,etoland.co.kr##[id$='_ad']
