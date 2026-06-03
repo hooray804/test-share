@@ -1,14 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.03.0
+! Version: 2026.06.04.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
-
-! To be added on version 2026.06.04.
-mimint.co.kr###anchor-layer:has(.anchor-slot)
-mimint.co.kr##div.banner-split-reveal
-mimint.co.kr##div.index-right-banner:has(.main-right-ad)
 
 ! To be added on version 2026.06.05.
 kgirls.net##.layout_pc_banner
@@ -177,6 +172,9 @@ m.wowtv.co.kr##.container > div[style]
 m.wowtv.co.kr,inven.co.kr##[id*='Banner']
 map.naver.com##.marker_icon_area.main:has(img[src*="/ad-marker/"])
 map.naver.com##div[class*="StyledAdGuideTooltip"]
+mimint.co.kr###anchor-layer:has(.anchor-slot)
+mimint.co.kr##.banner-split-reveal
+mimint.co.kr##.index-right-banner:has(.main-right-ad)
 maplescouter.com,loawa.com###popup
 mlbpark.donga.com##[class^='coupang'], [class*='naver_place']
 mlbpark.donga.com##ul.sub_lists_today.lists > li.items:nth-of-type(6)::before
@@ -244,7 +242,7 @@ bampt3.com,bampt4.com##.small-banners-grid, .small-ad-item, .premium-banner-wrap
 darkgirl8.com###adskip, #posterWrap, #main-banner
 darkgirl8.com##.banner, a[href*="clickadu.net"]
 darkgirl8.com#%#//scriptlet('trusted-click-element', '#adbtn')
-fxfx325.com,fxfx326.com,fxfx327.com,wftoon213.com,wftoon214.com,wftoon215.com##div.top-banner
+fxfx325.com,fxfx326.com,fxfx327.com,wftoon213.com,wftoon214.com,wftoon215.com,wfwf458.com,wfwf459.com,wfwf460.com##div.top-banner
 jusocon1.com,jusocon2.com##.banner_box
 mingky.live,ydparty.tv##div:is(.top-wrap, .mid-wrap, .bot-wrap):has(a.grid-asset[data-item-id])
 sbxh3.com,sbxh4.com,sbxh5.com##[data-pm-ov="1"]
