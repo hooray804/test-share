@@ -5,9 +5,6 @@
 ! Beta
 
 
-! To be added on version 2026.06.05.
-kgirls.net##.layout_pc_banner
-
 ! To be added on version 2026.06.06.
 paxnet.co.kr##.stock-ad, [class^="dv-com-m0"]
 paxnet.co.kr##iframe[src*="/banner/"]
