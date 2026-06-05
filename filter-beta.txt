@@ -1,13 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.05.1
+! Version: 2026.06.06.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
-
-! To be added on version 2026.06.06.
-paxnet.co.kr##.stock-ad, [class^="dv-com-m0"]
-paxnet.co.kr##iframe[src*="/banner/"]
 
 ! To be added on version 2026.06.07.
 redbogo1.com,redbogo2.com##.ad-banner-section
@@ -190,6 +186,8 @@ nimi.wiki##+js(aeld, click, doEvent)
 nimi.wiki##+js(aeld, click, popMagic)
 orbi.kr##div[x-data="advertisement"]
 orbi.kr##li.listAd
+paxnet.co.kr##.stock-ad, [class^="dv-com-m0"]
+paxnet.co.kr##iframe[src*="/banner/"]
 pay.naver.com##div[class^='BottomAds_article']
 postshare.co.kr###adWallContainer
 postshare.co.kr###blurredContentArea:style(filter: none !important; -webkit-filter: none !important; opacity: 1 !important; pointer-events: auto !important; user-select: auto !important;)
