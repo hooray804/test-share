@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.05.0
+! Version: 2026.06.05.1
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
@@ -59,6 +59,9 @@ tvroom13.org##a[href*="/banner/"]
 
 ! To be added on version 2026.06.22.
 ||bokuennews.com/data/banner
+
+! To be added on version 2026.06.23.
+lawtimes.co.kr###top-banner
 
 
 ! Ads
