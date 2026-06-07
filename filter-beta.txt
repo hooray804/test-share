@@ -6,14 +6,14 @@
 
 
 ! To be added on version 2026.06.08.
-gangmom.kr##.banner-wrapper
+ssalmuk.com##+js(json-prune, data.[-].popupCode)
+
 
 ! To be added on version 2026.06.09.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
 
 ! To be added on version 2026.06.10.
-jusomoa.site##.jmoa-banner-grid
-jusowhy.com##.banner_list
+gangmom.kr##.banner-wrapper
 
 ! To be added on version 2026.06.11.
 3rd.supply##.h-hori-ad
@@ -56,6 +56,9 @@ tvroom13.org##a[href*="/banner/"]
 ! To be added on version 2026.06.23.
 lawtimes.co.kr###top-banner
 
+! To be added on version 2026.06.24.
+jusomoa.site##.jmoa-banner-grid
+jusowhy.com##.banner_list
 
 ! Ads
 ##.ad-view
