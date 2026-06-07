@@ -8,7 +8,6 @@
 ! To be added on version 2026.06.08.
 ssalmuk.com##+js(json-prune, data.[-].popupCode)
 
-
 ! To be added on version 2026.06.09.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
 
