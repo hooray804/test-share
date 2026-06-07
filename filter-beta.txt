@@ -1,12 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.07.2
+! Version: 2026.06.08.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
-
-! To be added on version 2026.06.08.
-ssalmuk.com##+js(json-prune, data.[-].popupCode)
 
 ! To be added on version 2026.06.09.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
@@ -253,7 +250,6 @@ jusocon1.com,jusocon2.com##.banner_box
 mingky.live,ydparty.tv##div:is(.top-wrap, .mid-wrap, .bot-wrap):has(a.grid-asset[data-item-id])
 redbogo2.com,redbogo3.com##.ad-banner-section
 sbxh3.com,sbxh4.com,sbxh5.com##[data-pm-ov="1"]
-tkor124.com,tkor125.com,tkor127.com##.main_top_bann
 xxzone23.top,xxzone24.top##[id*="main-banner"], .gplayer-ad-overlay, #popupBannerModal
 !
 !#if (adguard && adguard_app_ios && adguard_ext_safari && adguard_ext_chromium && adguard_ext_edge && adguard_ext_firefox)
@@ -305,7 +301,7 @@ ruliweb.com##+js(remove-class, ai_blind, #board_read)
 @@||piku.co.kr^$generichide
 aagag.com##+js(set-cookie, ab, 0)
 aagag.com#$#.la { position: absolute !important; left: -3000px !important; width: 60px !important; height: 20px !important; }
-damoang.net##[aria-label="광고 차단 안내"]
+damoang.net##.adblock-notice
 dcinside.com###moveOverlay, #gaejukimg
 m.fmkorea.com##+js(set, _make_power_link_identifier, noopFunc)
 m.fmkorea.com##script ~ div.bd_mobile.bd:matches-css(margin: /[0-5]px [0-5]px/):matches-css(padding: /[0-5]px/):remove()
