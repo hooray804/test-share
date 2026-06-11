@@ -1,12 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.11.0
+! Version: 2026.06.12.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
 
-
-! To be added on version 2026.06.11.
-3rd.supply##.h-hori-ad
 
 ! To be added on version 2026.06.12.
 tiendeo.co.kr##section:has(> span:contains(광고))
@@ -56,6 +53,7 @@ gangmom.kr##.banner-wrapper
 jusomoa.site##.jmoa-banner-grid
 jusowhy.com##.banner_list
 
+
 ! Ads
 ##.ad-view
 ##.banner_m
@@ -82,6 +80,7 @@ jusowhy.com##.banner_list
 [$domain=/torrent[a-z0-9]*\.[a-z]{2,}/]##div[class$='gallery'][id] [target='_blank']:upward(1)
 [$domain=/torrentqq[0-9]*\.com/]##div.at-banner:has(a[href*="/ads/"])
 [$domain=/yadongtv[0-9]*\.com/]##div[style*="top: 215px"]:has(img[src*="/banners/"]), img[src*="/banners/"]
+3rd.supply##.h-hori-ad
 a-ha.io##div[aria-label="advertisement"]
 algumon.com##div:has([data-tip^='파트너스'], div[style*='height'], ins):is(.card, .deal-2col)
 arca.live##.vrow.hybrid:has(.category-badge)
@@ -169,8 +168,6 @@ m.ppomppu.co.kr##ul:has(> .mobile-ad-sponsor)
 m.ruliweb.com##tr:has(.nbp_container)
 m.wowtv.co.kr##.container > div[style]
 m.wowtv.co.kr,inven.co.kr##[id*='Banner']
-map.naver.com##.marker_icon_area.main:has(img[src*="/ad-marker/"])
-map.naver.com##div[class*="StyledAdGuideTooltip"]
 maplescouter.com,loawa.com###popup
 mimint.co.kr###anchor-layer:has(.anchor-slot)
 mimint.co.kr##.ads-container, .banner-split-reveal, .g-center-wrap, .index-right-banner
@@ -204,6 +201,8 @@ red52.kr##.notice-box-area, .banner-pc, .banner-m
 rgr.kr,rgrong.net,te31.com###foot:style(height: 150px !important;)
 rgr.kr,rgrong.net,te31.com##div[style='position:relative;z-index:11;']
 ruliweb.com,ppomppu.co.kr,naver.com,daum.net,etoland.co.kr##[id$='_ad']
+samgakgame.com###homeAdSlot, #bannerAd, #resultBannerAd, #frontAdMedia
+samgakgame.com##+js(nano-sib, adRemaining)
 search.danawa.com##[id^='powerShoppingArea']
 search.danawa.com##li[data-itemtype='adsmart']
 section.blog.naver.com##.area_advertisement
