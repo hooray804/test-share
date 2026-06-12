@@ -1,12 +1,8 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.12.0
+! Version: 2026.06.13.0
 ! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
 
 ! Beta
-
-
-! To be added on version 2026.06.12.
-tiendeo.co.kr##section:has(> span:contains(광고))
 
 ! To be added on version 2026.06.13.
 mmzone.co.kr##.m-center-adt-container
@@ -47,7 +43,7 @@ lawtimes.co.kr###top-banner
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
 
 ! To be added on version 2026.06.25.
-gangmom.kr##.banner-wrapper
+tiendeo.co.kr##section:has(> span:contains(광고))
 
 ! To be added on version 2026.06.26.
 jusomoa.site##.jmoa-banner-grid
@@ -81,6 +77,7 @@ jusowhy.com##.banner_list
 [$domain=/torrentqq[0-9]*\.com/]##div.at-banner:has(a[href*="/ads/"])
 [$domain=/yadongtv[0-9]*\.com/]##div[style*="top: 215px"]:has(img[src*="/banners/"]), img[src*="/banners/"]
 3rd.supply##.h-hori-ad
+3rd.supply##.text-center:has(sp-common-adsense)
 a-ha.io##div[aria-label="advertisement"]
 algumon.com##div:has([data-tip^='파트너스'], div[style*='height'], ins):is(.card, .deal-2col)
 arca.live##.vrow.hybrid:has(.category-badge)
