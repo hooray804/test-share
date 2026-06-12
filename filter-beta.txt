@@ -1,6 +1,6 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.13.1
-! Description: This beta version is updated manually and does not sync automatically with the main repository. Consequently, some adblock filter rules may occasionally be ahead of or slightly behind the main release. Do NOT use this filter.
+! Version: 2026.06.13.2
+! Description: 업데이트  무기한 중단됨. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 ! Beta
 
