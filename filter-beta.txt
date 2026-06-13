@@ -1,11 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.13.3
+! Version: 2026.06.14.0
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 ! Beta
 
-! To be added on version 2026.06.13.
-mmzone.co.kr##.m-center-adt-container
 
 ! To be added on version 2026.06.14.
 maxmovie.com##.adMobile
@@ -172,6 +170,7 @@ mimint.co.kr##.ads-container, .banner-split-reveal, .g-center-wrap, .index-right
 mimint.co.kr##.list_row:has(div[data-ad-mode])
 mlbpark.donga.com##[class^='coupang'], [class*='naver_place']
 mlbpark.donga.com##ul.sub_lists_today.lists > li.items:nth-of-type(6)::before
+mmzone.co.kr##.m-center-adt-container
 mule.co.kr##[class*='-ad-']
 namu.news##li:has(div[style*="min-height:100px"]):has(> div > div[id*="article-a"])
 namu.wiki#$#div[class][id]:is(:empty, :has(> iframe[id^='google_ads_iframe'])) { display: none !important; }
