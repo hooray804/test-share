@@ -1,9 +1,9 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.14.3
+! Version: 2026.06.14.5
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
-! Beta
 
+! Beta
 
 ! To be added on version 2026.06.14.
 chatgpts.kr,free4u.tistory.com##+js(nostif, checkRealAdBlock)
@@ -13,10 +13,10 @@ chatgpts.kr,free4u.tistory.com##+js(nostif, checkAdBlock)
 toronon.kr##+js(prevent-fetch, site_id=, emptyObj)
 
 ! To be added on version 2026.06.16.
-tvseoul.kr##div[style*="width:360px"][style*="height:300px"]
+cola16.app##+js(acis, decodeURIComponent, ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 
 ! To be added on version 2026.06.17.
-jjtv.kr##div[style*="text-align: center"]:has(> iframe)
+quizbubble.kr##+js(no-fetch-if, adsbygoogle.js)
 
 ! To be added on version 2026.06.18.
 khan.co.kr##[class^="ad-art-"]
@@ -51,6 +51,12 @@ maxmovie.com##.adMobile
 maxmovie.com##div[class*="TopCenterAdBox"]
 
 ! To be added on version 2026.06.28.
+tvseoul.kr##div[style*="width:360px"][style*="height:300px"]
+
+! To be added on version 2026.06.29.
+jjtv.kr##div[style*="text-align: center"]:has(> iframe)
+
+! To be added on version 2026.06.30.
 jusogo.markets##.jmoa-banner-grid
 jusowhy1.com,jusowhy2.com##.banner_list
 
