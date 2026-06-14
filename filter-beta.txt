@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.14.4
+! Version: 2026.06.14.5
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 
@@ -19,7 +19,7 @@ cola16.app##+js(acis, decodeURIComponent, ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 quizbubble.kr##+js(no-fetch-if, adsbygoogle.js)
 
 ! To be added on version 2026.06.18.
-khan.co.kr##[class^="ad-art-"]
+hmstory.net##script:contains(detect-message-shown):remove()
 
 ! To be added on version 2026.06.19.
 yonhapnewstv.co.kr##.view-ad-center
@@ -29,7 +29,7 @@ outstanding.kr##.Toastify__toast:has([id^="banner_"])
 outstanding.kr###top_banner_home
 
 ! To be added on version 2026.06.21.
-tvroom13.org##a[href*="/banner/"]
+khan.co.kr##[class^="ad-art-"]
 
 ! To be added on version 2026.06.22.
 ||bokuennews.com/data/banner
@@ -59,7 +59,7 @@ jjtv.kr##div[style*="text-align: center"]:has(> iframe)
 ! To be added on version 2026.06.30.
 jusogo.markets##.jmoa-banner-grid
 jusowhy1.com,jusowhy2.com##.banner_list
-
+tvroom13.org##a[href*="/banner/"]
 
 ! Ads
 ##.ad-view
