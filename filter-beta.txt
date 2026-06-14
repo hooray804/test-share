@@ -1,13 +1,10 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.14.6
+! Version: 2026.06.15.0
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 
 ! Beta
 
-! To be added on version 2026.06.14.
-chatgpts.kr,free4u.tistory.com##+js(nostif, checkRealAdBlock)
-chatgpts.kr,free4u.tistory.com##+js(nostif, checkAdBlock)
 
 ! To be added on version 2026.06.15.
 toronon.kr##+js(prevent-fetch, site_id=, emptyObj)
@@ -111,6 +108,8 @@ bbs.ruliweb.com##tr:has(.nick[style^='display: inline-block'])
 blog.naver.com,comic.naver.com##[class*='banner_area']
 bunjang.co.kr##div[class*="ProductExternalAdsstyle"]:has(h3:has-text(비슷한 새 상품 보기))
 bunjang.co.kr##section:has(> [class*="adTitle"]):has-text(AD)
+chatgpts.kr,free4u.tistory.com##+js(nostif, checkRealAdBlock)
+chatgpts.kr,free4u.tistory.com##+js(nostif, checkAdBlock)
 chimhaha.net##[id^='slot']
 chimhaha.net##div[style='margin-top: 50px; ']
 chimhaha.net,seoul.co.kr,mule.co.kr##[class*='Ad']
@@ -151,6 +150,7 @@ hygall.com##div[style='display: flex;justify-content: center; width:100%;height:
 i-boss.co.kr##[class$="-bn"]:has(a[target="_blank"])
 i-boss.co.kr##.contextAdWrap
 i-boss.co.kr##.topNoticeArea
+ibric.org##.top-banner-wrap
 instiz.net##.view_top
 instiz.net##div[class^='hot_u']
 inven.co.kr,mt.co.kr##[class$='ads']
@@ -189,6 +189,7 @@ mlbpark.donga.com##[class^='coupang'], [class*='naver_place']
 mlbpark.donga.com##ul.sub_lists_today.lists > li.items:nth-of-type(6)::before
 mmzone.co.kr###header_top:has(.ads-wrap)
 mmzone.co.kr##.m-center-adt-container
+money-master-365.tistory.com##+js(nostif, detectAdblock)
 mule.co.kr##[class*='-ad-']
 namu.news##li:has(div[style*="min-height:100px"]):has(> div > div[id*="article-a"])
 namu.wiki#$#div[class][id]:is(:empty, :has(> iframe[id^='google_ads_iframe'])) { display: none !important; }
@@ -196,7 +197,6 @@ naver.com###sb-kh-shortents-wrap
 naver.com##.sa_mw.sa_empty_ad
 news.jtbc.co.kr##.print-hide:has-text(AD)
 nexon.com,gg,ps,xyz,loawa.com,or.kr,go.kr,ai,chat#@#[target='_blank']:has([src*='/banner/'])
-nimi.wiki##+js(aeld, click, doEvent)
 nimi.wiki##+js(aeld, click, popMagic)
 orbi.kr##div[x-data="advertisement"]
 orbi.kr##li.listAd
