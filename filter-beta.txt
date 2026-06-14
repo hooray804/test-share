@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.14.1
+! Version: 2026.06.14.2
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 ! Beta
@@ -121,7 +121,7 @@ fnnews.com##[id="hotPhotoArea"], [data-widget_id]
 fnnews.com##div[style*="height:"]:has(iframe, script, ins), div[style*="text-align: center"]:has(> iframe)
 gall.dcinside.com##.gnb_list.clear > li:has(> [onclick])
 gangmom.kr##.banner-wrapper
-gaykorea.net,yoboyobo.kr##.cu_gallery-item, .main-slider, .product_viewpage-latest, div[class^="m-b-"]:has(> div > p.powered)
+gaykorea.net,yoboyobo.kr##.cu_gallery-item, .main-slider, .md_ad, .product_viewpage-latest, div[class^="m-b-"]:has(> div > p.powered)
 get*ads-*-du.a.run.app^
 ggoorr.net##div[style^="min-height"]:has(> ins.adsbygoogle)
 ggoorr.net##li.code-list-middle > div:has(ins.adsbygoogle)
@@ -236,22 +236,27 @@ zod.kr##div[id]:has(> [target] > img)
 ||thumb.kakaocdn.net^$app=com.kakao.talk
 ||trillion.toss.im^
 !
-bamgad7.com,bamgad8.com##ul.row:has(img[src*="/file/advertise/"])
-bampt3.com,bampt4.com##.small-banners-grid, .small-ad-item, .premium-banner-wrapper
-darkgirl11.com,darkgirl12.com###adskip, #posterWrap, #main-banner
-darkgirl11.com,darkgirl12.com##.banner, a[href*="clickadu.net"]
-darkgirl11.com,darkgirl12.com#%#//scriptlet('trusted-click-element', '#adbtn')
-jusocon1.com,jusocon2.com##.banner_box
-mingky04.live,ydparty02.tv##div:is(.top-wrap, .mid-wrap, .bot-wrap):has(a.grid-asset[data-item-id])
-redbogo4.com,redbogo5.com##.ad-banner-section
+bamgad7.com,bamgad8.com,bamgad9.com##ul.row:has(img[src*="/file/advertise/"])
+bampt3.com,bampt4.com,bampt5.com##.small-banners-grid, .small-ad-item, .premium-banner-wrapper
+darkgirl11.com,darkgirl12.com,darkgirl13.com###adskip, #posterWrap, #main-banner
+darkgirl11.com,darkgirl12.com,darkgirl13.com##.banner, a[href*="clickadu.net"]
+darkgirl11.com,darkgirl12.com,darkgirl13.com#%#//scriptlet('trusted-click-element', '#adbtn')
+jusocon1.com,jusocon2.com,jusocon3.com##.banner_box
+mingky04.live,ydparty02.tv##.grid-asset
 sbxh6.com,sbxh7.com,sbxh8.com##[data-pm-ov="1"]
-xxzone24.top,xxzone25.top##[id*="main-banner"], .gplayer-ad-overlay, #popupBannerModal
-yugiyu2.com,yugiyu3.com##ul:has(> li.banner-item)
+xxzone24.top,xxzone25.top,xxzone26.top##[id*="main-banner"], .gplayer-ad-overlay, #popupBannerModal
+yugiyu2.com,yugiyu3.com,yugiyu4.com##ul:has(> li.banner-item)
 !
 !#if (adguard && adguard_app_ios && adguard_ext_safari && adguard_ext_chromium && adguard_ext_edge && adguard_ext_firefox)
 ###img_row_container
 ###viewCover
 ##.banner_wrap2
+!#endif
+!
+!#if (adguard_app_ios || adguard_ext_safari) && !adguard_app_mac
+hitomi.la##div:has(> div[id^="__clb-spot"])
+hitomi.la##div:has(> iframe[id^="__clb-spot"])
+hitomi.la##+js(nowoif)
 !#endif
 
 ! Minor distractions
