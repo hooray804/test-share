@@ -1,5 +1,5 @@
 ! Title: AdGuard Gallery Filter Beta
-! Version: 2026.06.15.0
+! Version: 2026.06.15.1
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 
@@ -57,9 +57,12 @@ jjtv.kr##div[style*="text-align: center"]:has(> iframe)
 0db.co.kr###adblock_notice
 
 ! To be added on version 2026.07.01.
-jusogo.markets##.jmoa-banner-grid
-jusowhy1.com,jusowhy2.com##.banner_list
 tvroom13.org##a[href*="/banner/"]
+
+! To be added on version 2026.07.02.
+orbi.kr##div[style*="82px;"]:has(ins[data-revive-zoneid])
+orbi.kr##div[style^="margin-bottom: 4px; height: 70px"]:has(ins[data-revive-zoneid])
+orbi.kr##.label-banner
 
 
 ! Ads
@@ -121,8 +124,8 @@ damoang.net##.dm-card:has(#gam-index-top-damoang-banner-index)
 danawa.com,m.cafe.naver.com##[class^='banner']
 daum.net##div[data-slot-type="AD_BRANDING_STATION"]
 dcinside.com##li[id^='comment_']:has(p[class*='txt']:has-text(/^(https?:\/\/)[A-Za-z0-9]{2,10}(\.[a-z]{2,7}|\.co\.kr)(\/(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9_]{5,9})$/):not(:has-text(/git|g2sh|img|tebin|sendanywhe|twitter|rentry|x\.com|youtu|ibb\.co|archive\.md|t\.me|streamable|dev/i))):style(opacity: 0.1 !important;)
-ddaltube.com##+js(remove-attr, data-a, #dtube-player)
-ddaltube.com##.dtube-banner-grid, .vjs-video-ad-click-overlay, .player-banner-overlay.absolute > a.block
+ddaltube.com,yastar.xyz##+js(remove-attr, data-a, #dtube-player)
+ddaltube.com,yastar.xyz##.dtube-banner-grid, .vjs-video-ad-click-overlay, .player-banner-overlay > a.block
 diningcode.com##.ad-container
 diningcode.com##li:has(.PoiAdsSpacerList)
 doctornow.co.kr##div.flex.w-full:has(> div.relative, > ins.adsbygoogle)
@@ -178,6 +181,7 @@ m.dcinside.com##li:not(.notice):has(> .detail-top-lnk)
 m.ppomppu.co.kr##.js-ad_slot.JS-div_gpt_ad
 m.ppomppu.co.kr##div[style^='text-align:center;']
 m.ppomppu.co.kr##ul:has(> .mobile-ad-sponsor)
+m.ruliweb.com##aside.native_timeline_ad
 m.ruliweb.com##tr:has(.nbp_container)
 m.wowtv.co.kr##.container > div[style]
 m.wowtv.co.kr,inven.co.kr##[id*='Banner']
