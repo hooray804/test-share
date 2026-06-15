@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.15.2
+! Version: 2026.06.15.3
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 
@@ -8,6 +8,7 @@
 
 ! To be added on version 2026.06.15.
 toronon.kr##+js(prevent-fetch, site_id=, emptyObj)
+i-boss.co.kr##.home-board:has(.home-banner-wrap)
 
 ! To be added on version 2026.06.16.
 cola16.app##+js(acis, decodeURIComponent, ABCDEFGHIJKLMNOPQRSTUVWXYZ)
