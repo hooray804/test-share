@@ -6,7 +6,7 @@
 ! Beta
 
 ! For a quick test
-postshare.co.kr##+js(set-cookie, ad_unlocked_timer_final_v2, true)
+
 
 ! To be added on version 2026.06.16.
 cola16.app##+js(acis, decodeURIComponent, ABCDEFGHIJKLMNOPQRSTUVWXYZ)
