@@ -6,7 +6,7 @@
 ! Beta
 
 ! For a quick test
-
+hitomi.la##div:has(> [id^="__clb-spot"])
 
 ! To be added on version 2026.06.16.
 cola16.app##+js(acis, decodeURIComponent, ABCDEFGHIJKLMNOPQRSTUVWXYZ)
