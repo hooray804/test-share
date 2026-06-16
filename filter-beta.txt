@@ -3,7 +3,8 @@
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 ! For a quick test
-
+kissjav.com##+js(set-attr, img.lazy-load, src, [data-original])
+kissjav.com##+js(set-attr, img.lazy-load, src, [data-webp])
 
 ! To be added on version 2026.06.16.
 hungryapp.co.kr##.banner4
