@@ -6,16 +6,20 @@
 
 
 ! To be added on version 2026.06.16.
-cola16.app##+js(acis, decodeURIComponent, ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+shipdago.com##+js(no-fetch-if, adsbygoogle.js)
+shipdago.com##+js(nostif, adsbygoogle-status)
+shipdago.com##+js(set-attr, ins.adsbygoogle, data-ad-status, true)
+shipdago.com##+js(set-attr, ins.adsbygoogle, data-adsbygoogle-status, true)
+shipdago.com##div:has(> ins.adsbygoogle)
 
 ! To be added on version 2026.06.17.
-quizbubble.kr##+js(no-fetch-if, adsbygoogle.js)
+cola16.app##+js(acis, decodeURIComponent, ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 
 ! To be added on version 2026.06.18.
 hmstory.net##script:contains(detect-message-shown):remove()
 
 ! To be added on version 2026.06.19.
-yonhapnewstv.co.kr##.view-ad-center
+quizbubble.kr##+js(no-fetch-if, adsbygoogle.js)
 
 ! To be added on version 2026.06.20.
 outstanding.kr##.Toastify__toast:has([id^="banner_"])
@@ -53,6 +57,9 @@ jjtv.kr##div[style*="text-align: center"]:has(> iframe)
 0db.co.kr###adblock_notice
 
 ! To be added on version 2026.07.01.
+yonhapnewstv.co.kr##.view-ad-center
+
+! To be added on version 2026.07.02.
 tvroom13.org##a[href*="/banner/"]
 
 ! To be added on version 2026.07.02.
