@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.17.3
+! Version: 2026.06.17.4
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 ! For a quick test
@@ -60,10 +60,15 @@ outstanding.kr##.Toastify__toast:has([id^="banner_"])
 outstanding.kr###top_banner_home
 
 ! To be added on version 2026.07.03.
-lawtimes.co.kr###top-banner
+danawa.com###adSmartProductContainer
+danawa.com###t1Banner
+danawa.com##[class^="main-rightbnr"]
 
 ! To be added on version 2026.07.04.
-kyeongin.com##.horizon-ad
+lawtimes.co.kr###top-banner
 
 ! To be added on version 2026.07.05.
+kyeongin.com##.horizon-ad
+
+! To be added on version 2026.07.06.
 tvroom13.org##a[href*="/banner/"]
