@@ -1,14 +1,13 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.18.0
+! Version: 2026.06.18.1
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 ! For a quick test
-ez2pattern.kr##+js(no-fetch-if, adsbygoogle.js)
-oraksil.cc##+js(acis, onload, showAdblockMessage)
-namechart.kr##div:has(> ins.adsbygoogle)
+
 
 ! To be added on version 2026.06.18.
 hmstory.net##script:contains(detect-message-shown):remove()
+namechart.kr##div:has(> ins.adsbygoogle)
 
 ! To be added on version 2026.06.19.
 quizbubble.kr##+js(no-fetch-if, adsbygoogle.js)
@@ -18,6 +17,7 @@ quizbubble.kr##+js(no-fetch-if, adsbygoogle.js)
 
 ! To be added on version 2026.06.21.
 0db.co.kr###adblock_notice
+oraksil.cc##+js(acis, onload, showAdblockMessage)
 
 ! To be added on version 2026.06.22.
 ||bokuennews.com/data/banner
@@ -28,7 +28,7 @@ orbi.kr##div[style^="margin-bottom: 4px; height: 70px"]:has(ins[data-revive-zone
 orbi.kr##.label-banner
 
 ! To be added on version 2026.06.24.
-m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
+ez2pattern.kr##+js(no-fetch-if, adsbygoogle.js)
 
 ! To be added on version 2026.06.25.
 tiendeo.co.kr##section:has(> span:contains(광고))
@@ -68,4 +68,7 @@ lawtimes.co.kr###top-banner
 kyeongin.com##.horizon-ad
 
 ! To be added on version 2026.07.06.
+m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
+
+! To be added on version 2026.07.07.
 tvroom13.org##a[href*="/banner/"]
