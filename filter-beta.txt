@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.18.4
+! Version: 2026.06.18.5
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 ! For a quick test
@@ -15,7 +15,8 @@ shipdago.com,ez2pattern.kr,quizbubble.kr##+js(no-fetch-if, adsbygoogle.js)
 ||pandalive.co.kr^$document,domain=heye.kr
 
 ! To be added on version 2026.06.21.
-0db.co.kr###adblock_notice
+0db.co.kr##+js(spoof-css, #adsbox, display, block, visibility, visible, height, 100px, _recth, 100)
+0db.co.kr##+js(set, adsbygoogle, [])
 
 ! To be added on version 2026.06.22.
 ||bokuennews.com/data/banner
