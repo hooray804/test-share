@@ -68,8 +68,8 @@ kyeongin.com##.horizon-ad
 ! To be added on version 2026.07.06.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
 
-! To be edited on version 2026.07.06.
+! To be edited on version 2026.07.07.
 namechart.kr##div:has(> ins.adsbygoogle)
 
-! To be added on version 2026.07.07.
+! To be added on version 2026.07.08.
 tvroom13.org##a[href*="/banner/"]
