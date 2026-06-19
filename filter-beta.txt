@@ -5,26 +5,23 @@
 ! For a quick test
 
 
-! To be added on version 2026.06.20.
+! To be added on version 2026.06.21.
 ||pandalive.co.kr^$document,domain=heye.kr
 
-! To be added on version 2026.06.21.
+! To be added on version 2026.06.22.
 0db.co.kr##+js(spoof-css, #adsbox, display, block, visibility, visible, height, 100px, _recth, 100)
 0db.co.kr##+js(set, adsbygoogle, [])
 
-! To be added on version 2026.06.22.
+! To be added on version 2026.06.23.
 ||bokuennews.com/data/banner
 
-! To be added on version 2026.06.23.
+! To be added on version 2026.06.24.
 orbi.kr##div[style*="82px;"]:has(ins[data-revive-zoneid])
 orbi.kr##div[style^="margin-bottom: 4px; height: 70px"]:has(ins[data-revive-zoneid])
 orbi.kr##.label-banner
 
-! To be added on version 2026.06.24.
-oraksil.cc##+js(acis, onload, showAdblockMessage)
-
 ! To be added on version 2026.06.25.
-tiendeo.co.kr##section:has(> span:contains(광고))
+oraksil.cc##+js(acis, onload, showAdblockMessage)
 
 ! To be added on version 2026.06.26.
 battlepage.com##div[style$="min-height:200px;"]:has(ins.adsbyaiinad)
@@ -75,5 +72,8 @@ encar.com##[class*="Banner_wrap"]
 ridy.kr##+js(nostif, adsbox)
 
 ! To be added on version 2026.07.10.
+tiendeo.co.kr##section:has(> span:contains(광고))
+
+! To be added on version 2026.07.11.
 tvroom14.org##a[href*="/banner/"]
 
