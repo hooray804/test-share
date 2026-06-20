@@ -1,13 +1,10 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.21.1
+! Version: 2026.06.21.2
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
+
 ! For a quick test
-avsee.ru##+js(acis, decodeURI, split)
-avsee.ru##.at-main > div.main-box > .miso-post-mix .post-wrap
-avsee.ru##.title div[style^='width:100%']
-avsee.ru##.widget-side-box div.main-box:first-child
-avsee.ru##[alt$='gif']
+
 
 ! To be added on version 2026.06.22.
 0db.co.kr##+js(spoof-css, #adsbox, display, block, visibility, visible, height, 100px, _recth, 100)
