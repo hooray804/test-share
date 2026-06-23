@@ -1,11 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.24.2
+! Version: 2026.06.24.3
 ! Description: 2026년 6월 내 베타 필터의 업데이트가 중단될 예정이니, 정식 릴리즈 버전을 사용하세요. Filter updates have been suspended indefinitely. Do NOT use this filter.
 
 
 ! For a quick test
 !#safari_cb_affinity(general)
-@@||ad.co.kr^$ghide
+@@||arca.live^$ghide
 !#safari_cb_affinity
 
 ! To be added on version 2026.06.25.
