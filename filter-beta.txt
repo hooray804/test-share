@@ -1,11 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.29.1
+! Version: 2026.06.29.2
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
-
+0db.co.kr##+js(nostif, adsbygoogle, 1500)
 
 ! To be added on version 2026.06.30.
 khan.co.kr##[class^="ad-art-"]
