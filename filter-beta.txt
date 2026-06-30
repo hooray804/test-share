@@ -1,11 +1,13 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.31.0
+! Version: 2026.06.31.1
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
-
+yonhapnewstv.co.kr##.main-banner-area
+yonhapnewstv.co.kr##.view-ad-center
+yonhapnewstv.co.kr##section[class^="popular"]
 
 ! To be added on version 2026.07.02.
 outstanding.kr##.Toastify__toast:has([id^="banner_"])
