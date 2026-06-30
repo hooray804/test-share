@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.30.3
+! Version: 2026.06.30.4
 ! Description: Do NOT use this filter.
 
 
@@ -53,4 +53,7 @@ mbong.kr##div:has(> a > img[alt$="배너"])
 mbong.kr##div:has(> div[id^="ad-"])
 
 ! To be added on version 2026.07.14.
+newspim.com##[style*="width:100%; height:250px; margin:10px"]
+
+! To be added on version 2026.07.15.
 tvroom14.org##a[href*="/banner/"]
