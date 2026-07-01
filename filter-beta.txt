@@ -1,11 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.06.31.2
+! Version: 2026.06.31.3
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
-
+/^https:\/\/[0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\.in\/[a-z.][a-z.][a-z.]?[a-z.]?[a-z.]?[a-z.]?[a-z.]?[a-z.]?[a-z.]?[a-z.]?(\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?)?(\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?)?(\?[^ ]+)?$/$media,script,third-party,match-case
 
 ! To be added on version 2026.07.02.
 outstanding.kr##.Toastify__toast:has([id^="banner_"])
