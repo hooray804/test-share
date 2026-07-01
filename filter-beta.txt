@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.01.0
+! Version: 2026.07.02.0
 ! Description: Do NOT use this filter.
 
 
