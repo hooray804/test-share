@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.02.0
+! Version: 2026.07.03.0
 ! Description: Do NOT use this filter.
 
 
@@ -7,12 +7,8 @@
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 
 
-! To be added on version 2026.07.03.
-khan.co.kr##[class^="ad-art-"]
-danawa.com###t1Banner
-
 ! To be added on version 2026.07.04.
-lawtimes.co.kr###top-banner
+danawa.com###t1Banner
 
 ! To be added on version 2026.07.05.
 kyeongin.com##.horizon-ad
@@ -49,4 +45,7 @@ mbong.kr##div:has(> div[id^="ad-"])
 newspim.com##[style*="width:100%; height:250px; margin:10px"]
 
 ! To be added on version 2026.07.15.
+lawtimes.co.kr###top-banner
+
+! To be added on version 2026.07.16.
 tvroom14.org##a[href*="/banner/"]
