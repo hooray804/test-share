@@ -1,14 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.03.1
+! Version: 2026.07.04.0
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 
-
-! To be added on version 2026.07.04.
-lawtimes.co.kr###top-banner
 
 ! To be added on version 2026.07.05.
 kyeongin.com##.horizon-ad
