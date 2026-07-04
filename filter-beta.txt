@@ -8,6 +8,7 @@ heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 
 
 ! To be added on version 2026.07.05.
+||player.bunny-frame.online/js/ad_fetcher.js
 kyeongin.com##.horizon-ad
 
 ! To be added on version 2026.07.06.
