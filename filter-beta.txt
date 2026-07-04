@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.04.2
+! Version: 2026.07.05.0
 ! Description: Do NOT use this filter.
 
 
@@ -7,9 +7,6 @@
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 
 
-! To be added on version 2026.07.05.
-||player.bunny-frame.online/js/ad_fetcher.js
-kyeongin.com##.horizon-ad
 
 ! To be added on version 2026.07.06.
 m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
