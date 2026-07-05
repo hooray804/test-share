@@ -5,8 +5,7 @@
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
-asked.kr##div[class^="index_"] div[class^="banner_"]
-asked.kr##div[class^="kad_"]
+
 
 ! To be edited on version 2026.07.07.
 linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,namechart.kr##div:has(> ins.adsbygoogle)
