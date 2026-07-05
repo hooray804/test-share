@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.06.1
+! Version: 2026.07.06.2
 ! Description: Do NOT use this filter.
 
 
@@ -11,7 +11,7 @@ heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,namechart.kr##div:has(> ins.adsbygoogle)
 
 ! To be added on version 2026.07.08.
-encar.com##[class*="Banner_wrap"]
+maplescouter.com##div.justify-center:has([alt="boomback ad"])
 
 ! To be added on version 2026.07.09.
 ridy.kr##+js(nostif, adsbox)
@@ -36,7 +36,10 @@ mbong.kr##div:has(> div[id^="ad-"])
 newspim.com##[style*="width:100%; height:250px; margin:10px"]
 
 ! To be added on version 2026.07.15.
-maplescouter.com##div.justify-center:has([alt="boomback ad"])
+encar.com##[class*="Banner_wrap"]
 
 ! To be added on version 2026.07.16.
+chuchu.gg##.ad-container
+
+! To be added on version 2026.07.17.
 tvroom14.org##a[href*="/banner/"]
