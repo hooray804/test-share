@@ -1,15 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.05.0
+! Version: 2026.07.06.0
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 
-
-
-! To be added on version 2026.07.06.
-m.10000recipe.com##li:has(div.rcp_list2022_new_cont > div:contains(AD))
 
 ! To be edited on version 2026.07.07.
 linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,namechart.kr##div:has(> ins.adsbygoogle)
