@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.06.2
+! Version: 2026.07.06.3
 ! Description: Do NOT use this filter.
 
 
@@ -17,7 +17,7 @@ maplescouter.com##div.justify-center:has([alt="boomback ad"])
 ridy.kr##+js(nostif, adsbox)
 
 ! To be added on version 2026.07.10.
-tiendeo.co.kr##section:has(> span:contains(광고))
+tiendeo.co.kr##section:has(> span:has-text(광고))
 
 ! To be added on version 2026.07.11.
 maxmovie.com##.adMobile
