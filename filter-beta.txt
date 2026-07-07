@@ -36,7 +36,7 @@ chuchu.gg##.ad-container
 linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,namechart.kr##div:has(> ins.adsbygoogle)
 
 ! To be added on version 2026.07.18.
-wadiz.kr##[class^="MultiBoardAdBannerDisplay-module_container__"]
+wadiz.kr##[class^="MultiBoardAdBannerDisplay-"]
 
 ! To be added on version 2026.07.19.
 dvdprime.com##[id^="slot-"]
