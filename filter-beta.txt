@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.08.0
+! Version: 2026.07.08.1
 ! Description: Do NOT use this filter.
 
 
@@ -36,4 +36,13 @@ chuchu.gg##.ad-container
 linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,namechart.kr##div:has(> ins.adsbygoogle)
 
 ! To be added on version 2026.07.18.
+wadiz.kr##[class^="MultiBoardAdBannerDisplay-module_container__"]
+
+! To be added on version 2026.07.19.
+dvdprime.com##[id^="slot-"]
+
+! To be added on version 2026.07.20.
+umrb.co.kr##ul.main_slider_area
+
+! To be added on version 2026.07.21.
 tvroom14.org##a[href*="/banner/"]
