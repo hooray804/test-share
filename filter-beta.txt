@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.07.0
+! Version: 2026.07.07.1
 ! Description: Do NOT use this filter.
 
 
@@ -8,10 +8,13 @@ heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 
 
 ! To be added on version 2026.07.08.
-maplescouter.com##div.justify-center:has([alt="boomback ad"])
+mbong.kr##.ink_slide
+mbong.kr##.right_banne
+mbong.kr##div:has(> a > img[alt$="배너"])
+mbong.kr##div:has(> div[id^="ad-"])
 
 ! To be added on version 2026.07.09.
-ridy.kr##+js(nostif, adsbox)
+maplescouter.com##div.justify-center:has([alt="boomback ad"])
 
 ! To be added on version 2026.07.10.
 tiendeo.co.kr##section.justify-center:has([id^="div-gpt-ad-web"])
@@ -24,10 +27,7 @@ maxmovie.com##div[class*="TopCenterAdBox"]
 jjtv.kr##div[style*="text-align: center"]:has(> iframe)
 
 ! To be added on version 2026.07.13.
-mbong.kr##.ink_slide
-mbong.kr##.right_banne
-mbong.kr##div:has(> a > img[alt$="배너"])
-mbong.kr##div:has(> div[id^="ad-"])
+ridy.kr##+js(nostif, adsbox)
 
 ! To be added on version 2026.07.14.
 newspim.com##[style*="width:100%; height:250px; margin:10px"]
