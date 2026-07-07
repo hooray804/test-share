@@ -1,17 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.07.1
+! Version: 2026.07.08.0
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 
-
-! To be added on version 2026.07.08.
-mbong.kr##.ink_slide
-mbong.kr##.right_banne
-mbong.kr##div:has(> a > img[alt$="배너"])
-mbong.kr##div:has(> div[id^="ad-"])
 
 ! To be added on version 2026.07.09.
 maplescouter.com##div.justify-center:has([alt="boomback ad"])
