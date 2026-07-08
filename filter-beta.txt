@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.09.4
+! Version: 2026.07.09.5
 ! Description: Do NOT use this filter.
 
 
@@ -30,7 +30,7 @@ encar.com##[class*="Banner_wrap"]
 chuchu.gg##.ad-container
 
 ! To be edited on version 2026.07.17.
-linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,namechart.kr##div:has(> ins.adsbygoogle)
+linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,outstanding.kr,namechart.kr##div:has(> ins.adsbygoogle)
 
 ! To be added on version 2026.07.18.
 wadiz.kr##[class^="MultiBoardAdBannerDisplay-"]
@@ -52,4 +52,4 @@ goodgag.net##.view.ad
 youthassembly.kr##.coupang-box
 
 ! To be added on version 2026.07.24.
-tvroom14.org##a[href*="/banner/"]
+tvroom18.org##a[href*="/banner/"]
