@@ -1,14 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.09.3
+! Version: 2026.07.09.4
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
-!#safari_cb_affinity(general)
-@@||arca.live^$ghide
-@@||cdn.cms.outstanding.kr/images/origin/2
-!#safari_cb_affinity
+
 
 ! To be added on version 2026.07.10.
 tiendeo.co.kr##section.justify-center:has([id^="div-gpt-ad-web"])
