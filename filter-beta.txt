@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.08.1
+! Version: 2026.07.08.2
 ! Description: Do NOT use this filter.
 
 
@@ -45,4 +45,10 @@ dvdprime.com##[id^="slot-"]
 umrb.co.kr##ul.main_slider_area
 
 ! To be added on version 2026.07.21.
+youthassembly.kr##.coupang-box
+
+! To be added on version 2026.07.22.
+goodgag.net##.view.ad
+
+! To be added on version 2026.07.23.
 tvroom14.org##a[href*="/banner/"]
