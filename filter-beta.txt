@@ -1,11 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.10.0
+! Version: 2026.07.10.1
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
-/^https:\/\/[a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?[0-9a-z]?\.com\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?(\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?)?(\/[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?)?\?[0-9a-zA-Z][0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?=[0-9a-zA-Z%][0-9a-zA-Z%]?[0-9a-zA-Z%]?[0-9a-zA-Z%]?[0-9a-zA-Z%]?[0-9a-zA-Z%]?&[0-9a-zA-Z][0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?=[0-9a-zA-Z%.]+&[0-9a-zA-Z][0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?[0-9a-zA-Z]?=[0-9a-zA-Z%]+.*[0-9]$/$script,third-party,match-case
+
 
 ! To be added on version 2026.07.11.
 maxmovie.com##.adMobile
