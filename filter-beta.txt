@@ -1,11 +1,11 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.09.7
+! Version: 2026.07.09.8
 ! Description: Do NOT use this filter.
 
 
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
-
+coinpan.com##p > strong > span:has-text(AD):upward(p)
 
 ! To be added on version 2026.07.10.
 tiendeo.co.kr##section.justify-center:has([id^="div-gpt-ad-web"])
