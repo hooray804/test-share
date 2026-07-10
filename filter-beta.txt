@@ -33,6 +33,7 @@ wadiz.kr##[class^="MultiBoardAdBannerDisplay-"]
 
 ! To be added on version 2026.07.19.
 dvdprime.com##[id^="slot-"]
+! Visit maxmovie.com to check there's any ad leftovers
 
 ! To be added on version 2026.07.20.
 umrb.co.kr##ul.main_slider_area
