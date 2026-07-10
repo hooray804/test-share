@@ -1,5 +1,5 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.11.1
+! Version: 2026.07.11.2
 ! Description: Do NOT use this filter.
 
 
@@ -14,6 +14,7 @@ newspim.com##[style*="width:100%; height:250px; margin:10px"]
 ridy.kr##+js(nostif, adsbox)
 
 ! To be added on version 2026.07.14.
+boutique.chosun.com###bo_main_modalWrap
 edu.chosun.com##a:has(> [src*="edu.chosun.com/images/bn/"])
 edu.chosun.com##section:has(> [id^="AD_Main_"])
 health.chosun.com##.ad-main-top
