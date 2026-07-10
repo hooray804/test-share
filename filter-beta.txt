@@ -20,7 +20,9 @@ ohmynews.com##div[style="width: 336px; height: 280px;"]
 ridy.kr##+js(nostif, adsbox)
 
 ! To be added on version 2026.07.14.
-newspim.com##[style*="width:100%; height:250px; margin:10px"]
+edu.chosun.com##a:has(> [src*="edu.chosun.com/images/bn/"])
+edu.chosun.com##section:has(> [id^="AD_Main_"])
+health.chosun.com##.ad-main-top
 
 ! To be added on version 2026.07.15.
 encar.com##[class*="Banner_wrap"]
@@ -54,4 +56,7 @@ youthassembly.kr##.coupang-box
 jjtv.kr##div[style*="text-align: center"]:has(> iframe)
 
 ! To be added on version 2026.07.25.
+newspim.com##[style*="width:100%; height:250px; margin:10px"]
+
+! To be added on version 2026.07.26.
 tvroom18.org##a[href*="/banner/"]
