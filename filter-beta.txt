@@ -12,7 +12,9 @@ maxmovie.com##.adMobile
 maxmovie.com##div[class*="TopCenterAdBox"]
 
 ! To be added on version 2026.07.12.
-jjtv.kr##div[style*="text-align: center"]:has(> iframe)
+ohmynews.com###dvCenterAd
+ohmynews.com##aside.content_rt > div[style="height: 270px; margin: 0px; padding: 0px;"]
+ohmynews.com##div[style="width: 336px; height: 280px;"]
 
 ! To be added on version 2026.07.13.
 ridy.kr##+js(nostif, adsbox)
@@ -49,4 +51,7 @@ goodgag.net##.view.ad
 youthassembly.kr##.coupang-box
 
 ! To be added on version 2026.07.24.
+jjtv.kr##div[style*="text-align: center"]:has(> iframe)
+
+! To be added on version 2026.07.25.
 tvroom18.org##a[href*="/banner/"]
