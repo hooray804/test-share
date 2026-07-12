@@ -1,7 +1,7 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.12.1
+! Version: 2026.07.12.2
 ! Description: Do NOT use this filter.
-! TimeUpdated: 2026-07-11T19:27:51+00:00
+! TimeUpdated: 2026-07-11T19:27:51+09:00
 
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
