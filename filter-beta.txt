@@ -58,8 +58,8 @@ umrb.co.kr##ul.main_slider_area
 ! To be added on version 2026.07.28.
 m.tf.co.kr##div[style*="height"]:has([id^="ADFRAME"])
 
-! To be added on version 2026.07.28.
+! To be added on version 2026.07.29.
 welfarehello.com##[style^="--ad-frame-width-"]
 
-! To be added on version 2026.07.29.
+! To be added on version 2026.07.30.
 tvroom18.org##a[href*="/banner/"]
