@@ -56,7 +56,7 @@ m.tf.co.kr##div[style*="height"]:has([id^="ADFRAME"])
 welfarehello.com##[style^="--ad-frame-width-"]
 
 ! To be added on version 2026.07.30.
-ajunews.com##div[style^="width: 100%; height: 580px;"]
+ajunews.com##div.article_con > div > div[style*="580px;"]
 
 ! To be added on version 2026.07.31.
 tvroom18.org##a[href*="/banner/"]
