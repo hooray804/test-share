@@ -7,8 +7,6 @@
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
 namu.wiki#?#:xpath(//div[contains(@style, 'color:') and descendant::div[string-length(normalize-space(text())) = 8 and contains(@class, normalize-space(text()))]]/ancestor::div[not(descendant::*[starts-with(@href, '/w/') or starts-with(@href, '/edit/') or starts-with(@href, '/activity/') or contains(@href, 'namu.wiki/b/') or @id])][last()])
 
-! To be added on version 2026.07.16.
-chuchu.gg##.ad-container
 
 ! To be edited on version 2026.07.17.
 linkareer.com,m.ppomppu.co.kr,ggoorr.net,coinpan.com,shipdago.com,outstanding.kr,namechart.kr##div:has(> ins.adsbygoogle)
