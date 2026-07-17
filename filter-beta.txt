@@ -7,9 +7,6 @@
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
 
 
-! To be added on version 2026.07.18.
-ridy.kr##+js(nostif, adsbox)
-
 ! To be added on version 2026.07.19.
 dvdprime.com##[id^="slot-"]
 ! Visit maxmovie.com to check there's any ad leftovers
