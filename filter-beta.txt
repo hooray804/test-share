@@ -7,10 +7,6 @@
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
 
 
-! To be added on version 2026.07.21.
-iloa.gg##div.justify-center[class*="min-h-"]:has(> div.items-center):not(:has(a))
-kloa.gg##div[class*="min-h-"]:has(> div[id]):not(:has(a))
-
 ! To be added on version 2026.07.22.
 goodgag.net##.view.ad
 
