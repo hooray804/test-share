@@ -7,9 +7,6 @@
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
 
 
-! To be added on version 2026.07.22.
-goodgag.net##.view.ad
-
 ! To be added on version 2026.07.23.
 youthassembly.kr##.coupang-box
 
