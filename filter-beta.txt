@@ -1,6 +1,6 @@
 ! Title: Personal Filter Beta
-! Version: 2026.07.25.2
-! TimeUpdated: 2026-07-24T15:36:23+00:00
+! Version: 2026.07.25.3
+! TimeUpdated: 2026-07-24T15:36:45+00:00
 ! Description: Do NOT use this filter.
 
 ! For a quick test
