@@ -8,7 +8,7 @@
 
 
 ! To be added on version 2026.07.26.
-ikbc.co.kr##.box.banner
+bobaedream.co.kr##div.content.community > div[style$="height:100px;"]:has([id^="div-gpt-ad"])
 
 ! To be added on version 2026.07.27.
 umrb.co.kr##ul.main_slider_area
@@ -26,3 +26,8 @@ tvroom20.org##a[href*="/banner/"]
 mk.co.kr##div[data-ad-render-container]
 mk.co.kr##li.native-ad-list-item
 ! Visit maxmovie.com to check there's any ad leftovers
+
+! To be added on version 2026.08.01.
+mk.co.kr##div[data-ad-render-container]
+mk.co.kr##li.native-ad-list-item
+ikbc.co.kr##.box.banner
