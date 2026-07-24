@@ -12,7 +12,7 @@ $@$link[rel="manifest"]
 @@||192.168.$stealth=dpi
 @@||a*.smlog.co.kr^$app=com.nhn.android.search
 @@||ad-creative.pstatic.net^$app=com.nhn.android.search
-!#safari_cb_affinity(general)
+!#safari_cb_affinity(general,custom)
 @@||ad-img.gmarket.com^$image,domain=m.gmarket.co.kr|auction.co.kr|www.gmarket.co.kr
 @@||ad.co.kr^$ghide
 @@||adtouch.*
