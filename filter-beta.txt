@@ -12,8 +12,7 @@ $@$link[rel="manifest"]
 @@||192.168.$stealth=dpi
 @@||a*.smlog.co.kr^$app=com.nhn.android.search
 @@||ad-creative.pstatic.net^$app=com.nhn.android.search
-!#safari_cb_affinity(all)
-!#safari_cb_affinity
+!#safari_cb_affinity(general)
 @@||ad-img.gmarket.com^$image,domain=m.gmarket.co.kr|auction.co.kr|www.gmarket.co.kr
 @@||ad.co.kr^$ghide
 @@||adtouch.*
@@ -56,7 +55,7 @@ www.gmarket.co.kr#@#.section__main-inner > .box__promotion .box__item > *
 ||ssl.pstatic.net/t.static.blog/nmobile/versioning//common/lib/ntm/ntm-blog-web-*.js$badfilter
 ||store-api.mumuglobal.com^$badfilter
 ||tnkfactory.com^$badfilter
-
+!#safari_cb_affinity
 
 ! To be added on version 2026.07.25.
 jjtv.kr##div[style^="text-align: center"]:has(> iframe[src*="//ad.adnmore.co.kr/"])
