@@ -7,9 +7,6 @@
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
 
 
-! To be added on version 2026.07.25.
-jjtv.kr##div[style^="text-align: center"]:has(> iframe[src*="//ad.adnmore.co.kr/"])
-
 ! To be added on version 2026.07.26.
 ikbc.co.kr##.box.banner
 
