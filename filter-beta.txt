@@ -6,19 +6,6 @@
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
 
-! To be added on version 2026.07.28.
-m.tf.co.kr##div[style*="height"]:has([id^="ADFRAME"])
-
-! To be added on version 2026.07.29.
-welfarehello.com##[style^="--ad-frame-width-"]
-
-! To be added on version 2026.07.30.
-tvroom20.org##a[href*="/banner/"]
-
-! To be added on version 2026.07.31.
-mk.co.kr##div[data-ad-render-container]
-mk.co.kr##li.native-ad-list-item
 ! Visit maxmovie.com to check there's any ad leftovers
 
-! To be added on version 2026.08.01.
-ikbc.co.kr##.box.banner
+! To be added on version 2026.xx.xx.
