@@ -1,5 +1,5 @@
 ! Title: someonewhocares.org DNS filter
-! Version: 2026.07.16
+! Version: 2026.08.07
 
 # This hosts file is brought to you by Dan Pollock and can be found at
 # http://someonewhocares.org/hosts/
@@ -13,7 +13,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 15 Jul 2026 at 19:17:21 GMT
+# Last updated: Thu, 06 Aug 2026 at 19:13:39 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1427,6 +1427,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 2g312kn32qfy-1323053341.cos.ap-bangkok.myqcloud.com
 127.0.0.1 2roueselectrique.fr
 127.0.0.1 2x1gratis.com
+127.0.0.1 33.merivonview33.cc
 127.0.0.1 3mfrances.fr
 127.0.0.1 59-106-20-39.r-bl100.sakura.ne.jp
 127.0.0.1 602.lazulya.com
@@ -1823,6 +1824,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 commax.fr
 127.0.0.1 commdev.fr
 127.0.0.1 compe-nickel.fr
+127.0.0.1 completelove22.cc
 127.0.0.1 compufixshop.com
 127.0.0.1 comsss-56.com
 127.0.0.1 con-trnroayl.online
@@ -1886,6 +1888,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 davidhuynh.fr
 127.0.0.1 db-z.fr
 127.0.0.1 dbios.org
+127.0.0.1 dd.l146.com
 127.0.0.1 dealerconnection.fr
 127.0.0.1 dealiveroo.fr
 127.0.0.1 declarateenquiebra.cl
@@ -2282,6 +2285,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 jeu-jeux.fr
 127.0.0.1 jeupicard.fr
 127.0.0.1 jobfreelance.fr
+127.0.0.1 joincpd.com
 127.0.0.1 joomlaworks.fr
 127.0.0.1 joshan.fun
 127.0.0.1 juegosdechicas.fr
@@ -3156,6 +3160,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 trk.wizzdeal.trade
 127.0.0.1 trouveunfilm.fr
 127.0.0.1 trovi.com
+127.0.0.1 trstwcard.icu
 127.0.0.1 truecrypt.fr
 127.0.0.1 trusturl.top
 127.0.0.1 tubero.ellystegge.info
@@ -3282,6 +3287,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 wetter24.fr
 127.0.0.1 wewillrocknow.com
 127.0.0.1 wfflxx.com
+127.0.0.1 wgdcjd8kxd.olijfgent.be
 127.0.0.1 whiscas.fr
 127.0.0.1 whiteenamel.fr
 127.0.0.1 whqxzx.com
@@ -3346,6 +3352,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.americanresortresolutions.com
 127.0.0.1 www.amintart.com
 127.0.0.1 www.amomales.com
+127.0.0.1 www.ampervid.com
 127.0.0.1 www.anatol.com
 127.0.0.1 www.anyik.com
 127.0.0.1 www.apcort.com
@@ -3353,6 +3360,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.aqualakefy.name
 127.0.0.1 www.aramcom.space
 127.0.0.1 www.arfrepuestos.com
+127.0.0.1 www.argesmedia.com
 127.0.0.1 www.arknasasbluecross.com
 127.0.0.1 www.artdualdesign.com
 127.0.0.1 www.artssets.com
@@ -3402,6 +3410,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.blueridgecpp.com
 127.0.0.1 www.bmrneswk.com
 127.0.0.1 www.board-ly.com
+127.0.0.1 www.bocastyle.com
 127.0.0.1 www.bonuxsarrive.com
 127.0.0.1 www.bookstadium.com
 127.0.0.1 www.borocade.com
@@ -3453,6 +3462,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.ciderglowcm.site
 127.0.0.1 www.cidersunjt.com
 127.0.0.1 www.cjkassociates.co.in
+127.0.0.1 www.cjtest.com
 127.0.0.1 www.claimedmoney.com
 127.0.0.1 www.cleanvvlife.com
 127.0.0.1 www.cleanvvmagic.com
@@ -3469,7 +3479,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.coinimp.com
 127.0.0.1 www.combinebasic.com
 127.0.0.1 www.comfortykive.xyz
+127.0.0.1 www.commitlacrossecamps.com
 127.0.0.1 www.commuteinfo.com
+127.0.0.1 www.compacfurniture.com
 127.0.0.1 www.complien.com
 127.0.0.1 www.compufixshop.com
 127.0.0.1 www.conclusioncompeting.bond
@@ -3483,15 +3495,18 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.corvettiortho.com
 127.0.0.1 www.courtneydowns.com
 127.0.0.1 www.cpatglobal.com
+127.0.0.1 www.cpension.com
 127.0.0.1 www.cprcar.com
 127.0.0.1 www.cqwallpaper.com
 127.0.0.1 www.creativesaftysupply.com
 127.0.0.1 www.crediainternational.com
 127.0.0.1 www.crowdnestfun.com
+127.0.0.1 www.cruzresorts.com
 127.0.0.1 www.crystalbranchtw.blog
 127.0.0.1 www.ctlcai.com
 127.0.0.1 www.dailyazure.com
 127.0.0.1 www.dangdangflow.com
+127.0.0.1 www.danispiritualtherapist.com
 127.0.0.1 www.darkrro.com
 127.0.0.1 www.dartya.com
 127.0.0.1 www.dayanitastore.com
@@ -3518,12 +3533,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.digitalcoachpro.name
 127.0.0.1 www.dkpmsa.cfd
 127.0.0.1 www.dlinktour.com
+127.0.0.1 www.doblectv.com
 127.0.0.1 www.dorminvaders.com
 127.0.0.1 www.downmass.com
 127.0.0.1 www.drivegoals.com
 127.0.0.1 www.dualeotruyenno.com
 127.0.0.1 www.duotrader.com
 127.0.0.1 www.dustinjonesgolfacademy.com
+127.0.0.1 www.dutchoutlet.com
 127.0.0.1 www.dymor.cfd
 127.0.0.1 www.dynamictyres.com
 127.0.0.1 www.dzzzsc.com
@@ -3538,6 +3555,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.elfralalo.com
 127.0.0.1 www.eljaleomedellin.com
 127.0.0.1 www.emailspend.com
+127.0.0.1 www.emprenderimportaperu.com
 127.0.0.1 www.energiazoque.com
 127.0.0.1 www.eqarati.com
 127.0.0.1 www.eremplacementparts.com
@@ -3586,6 +3604,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.forexwood.com
 127.0.0.1 www.formalcenter.com
 127.0.0.1 www.fortunoxx.com
+127.0.0.1 www.framermotionplayground.com
 127.0.0.1 www.francesportisas-fr.com
 127.0.0.1 www.frbonusjeux.com
 127.0.0.1 www.freeaquarium.com
@@ -3599,6 +3618,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.futureowned.com
 127.0.0.1 www.gadgetbonanzamarket.com
 127.0.0.1 www.gaicodon.com
+127.0.0.1 www.gaiis.com
 127.0.0.1 www.gainwintz.com
 127.0.0.1 www.gamelthae.com
 127.0.0.1 www.gameltjae.com
@@ -3616,6 +3636,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.gezinti.com
 127.0.0.1 www.ggdark.net
 127.0.0.1 www.giadungnguyennhat.com
+127.0.0.1 www.gifttifyagency.com
 127.0.0.1 www.gildedrosens.name
 127.0.0.1 www.gimp.es
 127.0.0.1 www.glassygrovefy.pro
@@ -3626,6 +3647,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.gooddeserve.skin
 127.0.0.1 www.googdiy.com
 127.0.0.1 www.gotorobeks.com
+127.0.0.1 www.governmentaution.com
 127.0.0.1 www.gparted.fr
 127.0.0.1 www.gpolitico.com
 127.0.0.1 www.gracefulmeaduu.online
@@ -3640,6 +3662,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.grouphappy.com
 127.0.0.1 www.growthbuilder.name
 127.0.0.1 www.guaranteeservice.lat
+127.0.0.1 www.guashastone.com
+127.0.0.1 www.gwizacademy.com
 127.0.0.1 www.haikuservices.com
 127.0.0.1 www.hajoopteg.com
 127.0.0.1 www.hakerzy.net
@@ -3657,6 +3681,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.hindudirectory.com
 127.0.0.1 www.hitchedbridalandformalwear.com
 127.0.0.1 www.hits-football.com
+127.0.0.1 www.hoabridal.com
 127.0.0.1 www.hocxaydung.com
 127.0.0.1 www.homininfossil.cfd
 127.0.0.1 www.hotelsdetermine.bond
@@ -3667,13 +3692,16 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.hunterspeed.com
 127.0.0.1 www.hypeprop.com
 127.0.0.1 www.hypetrust.com
+127.0.0.1 www.ibenefi.com
 127.0.0.1 www.icecars.com
 127.0.0.1 www.iconatsbs.com
 127.0.0.1 www.icygrovejn.com
 127.0.0.1 www.icyhivemy.name
 127.0.0.1 www.iejonline.com
 127.0.0.1 www.iepelnazareno.com
+127.0.0.1 www.iesaber.com
 127.0.0.1 www.igameup.com
+127.0.0.1 www.ilyasasseban.com
 127.0.0.1 www.improvingthe.com
 127.0.0.1 www.indexprofile.com
 127.0.0.1 www.infopaypal.com
@@ -3701,6 +3729,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.jewishgame.com
 127.0.0.1 www.jhsmiami.com
 127.0.0.1 www.jnhjf.com
+127.0.0.1 www.joinclap.com
 127.0.0.1 www.joinfx.net
 127.0.0.1 www.jovareo.com
 127.0.0.1 www.justdebug.com
@@ -3722,14 +3751,18 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.knowinteractive.com
 127.0.0.1 www.knoxmenus.com
 127.0.0.1 www.kobotausa.com
+127.0.0.1 www.konceptseven.com
 127.0.0.1 www.kpremium.com
 127.0.0.1 www.kryzantor.uk
+127.0.0.1 www.ksiargentina.com
 127.0.0.1 www.lacocinany.com
 127.0.0.1 www.lahoreautismcentre.com
+127.0.0.1 www.lamaisonhind.com
 127.0.0.1 www.lanaita.com
 127.0.0.1 www.langleyantiques.com
 127.0.0.1 www.launchbuffer.com
 127.0.0.1 www.learngears.com
+127.0.0.1 www.learningfound.com
 127.0.0.1 www.learnnessy.com
 127.0.0.1 www.learntechno.com
 127.0.0.1 www.ledfaucetlight.com
@@ -3765,6 +3798,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.manoces.waw.pl
 127.0.0.1 www.markethelper.name
 127.0.0.1 www.marketinghwy.com
+127.0.0.1 www.massagetherapybyjuli.com
 127.0.0.1 www.match3quests.com
 127.0.0.1 www.matifi.com
 127.0.0.1 www.meantvictim.lat
@@ -3812,6 +3846,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.naturalmovementz.com
 127.0.0.1 www.nearestsalon.com
 127.0.0.1 www.necklaceu.com
+127.0.0.1 www.negativesphere.com
 127.0.0.1 www.neonpack.com
 127.0.0.1 www.neonracketpro.com
 127.0.0.1 www.new2crypto.com
@@ -3823,6 +3858,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.nobetsjustfun.com
 127.0.0.1 www.noithatphanthinh.com
 127.0.0.1 www.northvalesgrids.uk
+127.0.0.1 www.nostalgicroses.com
 127.0.0.1 www.notepad2.com
 127.0.0.1 www.novemberrainx.com
 127.0.0.1 www.novosantiago.com
@@ -3864,6 +3900,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.parejaamateur.com
 127.0.0.1 www.partsttown.com
 127.0.0.1 www.paseyourself.com
+127.0.0.1 www.patelshop.com
 127.0.0.1 www.paviro.cfd
 127.0.0.1 www.payasyougocert.com
 127.0.0.1 www.pcfixguide.help
@@ -3924,6 +3961,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.quartersnorth.lat
 127.0.0.1 www.quarvions.com
 127.0.0.1 www.quintingwatches.com
+127.0.0.1 www.quipla.com
 127.0.0.1 www.rackusread.com
 127.0.0.1 www.rajtoursdubai.com
 127.0.0.1 www.randki-sex.com
@@ -3953,6 +3991,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.robkellysurf.com
 127.0.0.1 www.romanticdemands.bond
 127.0.0.1 www.roofcoins.com
+127.0.0.1 www.roundtopbooks.com
 127.0.0.1 www.rplconnect.com
 127.0.0.1 www.rtkmyz.cfd
 127.0.0.1 www.rtpbolaslotjago.com
@@ -3977,6 +4016,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.shinyechogz.name
 127.0.0.1 www.shootingeffectively.skin
 127.0.0.1 www.shopvisitors.com
+127.0.0.1 www.shrimahaveercollege.com
 127.0.0.1 www.sidneyman.com
 127.0.0.1 www.silebah.com
 127.0.0.1 www.silentgateck.site
@@ -4013,6 +4053,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.statsff.com
 127.0.0.1 www.steelbucks.com
 127.0.0.1 www.stellarium.fr
+127.0.0.1 www.stelop.com
 127.0.0.1 www.stihil.com
 127.0.0.1 www.stocksrate.com
 127.0.0.1 www.stopphoulplay.com
@@ -4029,6 +4070,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.supereeego.com
 127.0.0.1 www.supportnestframe.uk
 127.0.0.1 www.supportwindowlane.uk
+127.0.0.1 www.susanhaggarphotography.com
 127.0.0.1 www.svipfulishipin.com
 127.0.0.1 www.swallowwire.sa.com
 127.0.0.1 www.sweetdominique.com
@@ -4094,6 +4136,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.videonhadat.com
 127.0.0.1 www.videostan.ru
 127.0.0.1 www.vipnac.com
+127.0.0.1 www.visitigangels.com
 127.0.0.1 www.vkvmotion.com
 127.0.0.1 www.vnailssanclemente.com
 127.0.0.1 www.volvce.com
@@ -4107,6 +4150,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.waterchalk.com
 127.0.0.1 www.waterchamber.com
 127.0.0.1 www.webassembly.stream
+127.0.0.1 www.webdesignmetric.com
 127.0.0.1 www.webdevotee.com
 127.0.0.1 www.webmicrostores.com
 127.0.0.1 www.webontwerp.com
@@ -4145,6 +4189,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.xtremetechcr.com
 127.0.0.1 www.yellowquartzkr.name
 127.0.0.1 www.yendermsoul.com
+127.0.0.1 www.yesyouvan.com
 127.0.0.1 www.yixiudn.com
 127.0.0.1 www.ylgj789.com
 127.0.0.1 www.yoolyes.com
@@ -9237,6 +9282,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mjxads.internet.com
 127.0.0.1 mk.limonshel.de
 127.0.0.1 mklik.gazeta.pl
+127.0.0.1 mks98.com
 127.0.0.1 ml314.com
 127.0.0.1 mlntracker.com
 127.0.0.1 mm.chitika.net
