@@ -1,5 +1,5 @@
 ! Title: someonewhocares.org DNS filter
-! Version: 2026.08.07
+! Version: 2026.08.09
 
 # This hosts file is brought to you by Dan Pollock and can be found at
 # http://someonewhocares.org/hosts/
@@ -13,7 +13,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 06 Aug 2026 at 19:13:39 GMT
+# Last updated: Sat, 08 Aug 2026 at 17:41:42 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -132,11 +132,9 @@ ff02::3		ip6-allhosts
 
 #127.0.0.1 s0.2mdn.net		# This may interfere with some streaming 
 				# video on sites such as cbc.ca
-#127.0.0.1 ad.doubleclick.net   # This may interefere with www.sears.com
 				# and potentially other sites. 
 127.0.0.1 media.fastclick.net	# Likewise, this may interfere with some
 127.0.0.1 cdn.fastclick.net	# sites. 
-#127.0.0.1 ebay.doubleclick.net		# may interfere with ebay
 #127.0.0.1 google-analytics.com			# breaks some sites
 #127.0.0.1 ssl.google-analytics.com
 #127.0.0.1 www.google-analytics.l.google.com
@@ -159,7 +157,6 @@ ff02::3		ip6-allhosts
 #127.0.0.1 t2.hulu.com		# Uncomment to block Hulu.
 #127.0.0.1 track.hulu.com	# Uncomment to block Hulu.
 #127.0.0.1 webstat.channel4.com
-#127.0.0.1 www.googletagservices.com		#interferes with techrepublic
 127.0.0.1 006.free-counter.co.uk
 127.0.0.1 006.freecounters.co.uk
 127.0.0.1 0stats.com
@@ -595,7 +592,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 fastwebcounter.com
 127.0.0.1 fdbdo.com
 127.0.0.1 fi.sitestat.com
-127.0.0.1 firebaselogging.googleapis.com
 127.0.0.1 fl01.ct2.comclick.com
 127.0.0.1 flixprice.com
 127.0.0.1 flury-ycpi.gycpi.b.yahoodns.net
@@ -622,7 +618,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 gj.mmstat.com
 127.0.0.1 goldstats.com
 127.0.0.1 googfle.com
-127.0.0.1 googletagservices.com
 127.0.0.1 gostats.com
 127.0.0.1 grafix.xxxcounter.com
 127.0.0.1 gscounters.us1.gigya.com
@@ -1245,7 +1240,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 valueclick.com
 127.0.0.1 valueclick.net
 127.0.0.1 velocecdn.com
-127.0.0.1 video-stats.video.google.com
 127.0.0.1 vidstat.taboola.com
 127.0.0.1 vidstatb.taboola.com
 127.0.0.1 vip.clickzs.com
@@ -1729,6 +1723,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 canadapost.helpdag.top
 127.0.0.1 canadapost.postescanadad.xyz
 127.0.0.1 canadapostarticle.com
+127.0.0.1 canadaposteb.eu.cc
 127.0.0.1 capital-invest-can.cropvita.sbs
 127.0.0.1 capitalregionusa.fr
 127.0.0.1 capostdelivery.com
@@ -4250,50 +4245,11 @@ ff02::3		ip6-allhosts
 
 #<doubleclick-sites>
 
-#127.0.0.1 pubads.g.doubleclick.net	#interferes with video on cwtv.com
-127.0.0.1 ad-emea.doubleclick.net
-127.0.0.1 ad-g.doubleclick.net
-127.0.0.1 ad.ae.doubleclick.net
-127.0.0.1 ad.be.doubleclick.net
-127.0.0.1 ad.br.doubleclick.net
-127.0.0.1 ad.de.doubleclick.net
-127.0.0.1 ad.dk.doubleclick.net
-127.0.0.1 ad.doubleclick.net
-127.0.0.1 ad.es.doubleclick.net
-127.0.0.1 ad.fi.doubleclick.net
-127.0.0.1 ad.fr.doubleclick.net
-127.0.0.1 ad.it.doubleclick.net
-127.0.0.1 ad.jp.doubleclick.net
-127.0.0.1 ad.mo.doubleclick.net
-127.0.0.1 ad.n2434.doubleclick.net
-127.0.0.1 ad.nl.doubleclick.net
-127.0.0.1 ad.no.doubleclick.net
-127.0.0.1 ad.nz.doubleclick.net
-127.0.0.1 ad.pl.doubleclick.net
-127.0.0.1 ad.se.doubleclick.net
-127.0.0.1 ad.sg.doubleclick.net
-127.0.0.1 ad.uk.doubleclick.net
-127.0.0.1 ad.ve.doubleclick.net
-127.0.0.1 ad.za.doubleclick.net
-127.0.0.1 ad2.doubleclick.net
-127.0.0.1 adclick.g.doubleclick.net
-127.0.0.1 cm.g.doubleclick.net
 127.0.0.1 creative.cc-dt.com
 127.0.0.1 doubleclick.com
 127.0.0.1 doubleclick.de
-127.0.0.1 doubleclick.net
-127.0.0.1 feedads.g.doubleclick.net
-127.0.0.1 fls.doubleclick.net
-127.0.0.1 googleads.g.doubleclick.net
-127.0.0.1 iv.doubleclick.net
 127.0.0.1 m.2mdn.net
-127.0.0.1 m.doubleclick.net
 127.0.0.1 m1.2mdn.net
-127.0.0.1 n479ad.doubleclick.net
-127.0.0.1 pagead.l.doubleclick.net
-127.0.0.1 pagead46.l.doubleclick.net
-127.0.0.1 stats.g.doubleclick.net
-127.0.0.1 stats.l.doubleclick.net
 127.0.0.1 ukrpts.net
 #</doubleclick-sites>
 
@@ -5525,7 +5481,6 @@ ff02::3		ip6-allhosts
 #127.0.0.1 rmads.msn.com			#This may cause problems with zone.msn.com
 #127.0.0.1 www.apmebf.com		#qksrv
 #127.0.0.1 www.tkqlhce.com		#qksrv
-#127.0.0.1 ad.ca.doubleclick.net	#intereferes with video on globeandmail.com
 #127.0.0.1 transfer.go.com		#may interfere with Disney websites
 #</maybe-ads>
 
@@ -5753,7 +5708,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 ad.gazeta.pl
 127.0.0.1 ad.ghfusion.com
 127.0.0.1 ad.goo.ne.jp
-127.0.0.1 ad.gr.doubleclick.net
 127.0.0.1 ad.groupon.be
 127.0.0.1 ad.groupon.co.uk
 127.0.0.1 ad.groupon.com
@@ -5788,7 +5742,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 ad.mastermedia.ru
 127.0.0.1 ad.media-servers.net
 127.0.0.1 ad.moscowtimes.ru
-127.0.0.1 ad.my.doubleclick.net
 127.0.0.1 ad.ne.com
 127.0.0.1 ad.net
 127.0.0.1 ad.network60.com
@@ -5811,7 +5764,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 ad.realmcdn.net
 127.0.0.1 ad.reklamport.com
 127.0.0.1 ad.repubblica.it
-127.0.0.1 ad.ru.doubleclick.net
 127.0.0.1 ad.search.ch
 127.0.0.1 ad.sensismediasmart.com
 127.0.0.1 ad.sensismediasmart.com.au
@@ -6998,12 +6950,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 adserver2.mediainsight.de
 127.0.0.1 adserver9.contextad.com
 127.0.0.1 adserversolutions.com
-127.0.0.1 adservice.google.ca
-127.0.0.1 adservice.google.co.za
-127.0.0.1 adservice.google.com
-127.0.0.1 adservice.google.com.au
-127.0.0.1 adservice.google.cz
-127.0.0.1 adservice.google.nl
 127.0.0.1 adseu.novem.pl
 127.0.0.1 adsfac.eu
 127.0.0.1 adsfac.net
@@ -7557,7 +7503,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 burns.adtech.us
 127.0.0.1 bus-offer.com
 127.0.0.1 buttcandy.com
-127.0.0.1 buttons.googlesyndication.com
 127.0.0.1 buzzadnetwork.com
 127.0.0.1 buzzonclick.com
 127.0.0.1 bwp.lastfm.com.com
@@ -9628,7 +9573,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 p7.preppypm.com
 127.0.0.1 paclitor.com
 127.0.0.1 page.0ffer.eu
-127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 pageplop.com
 127.0.0.1 pagesense.com
 127.0.0.1 paid.outbrain.com
@@ -10475,7 +10419,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 static.chartbeat.com
 127.0.0.1 static.clickonometrics.pl
 127.0.0.1 static.criteo.net
-127.0.0.1 static.doubleclick.net
 127.0.0.1 static.eu.criteo.net
 127.0.0.1 static.everyone.net
 127.0.0.1 static.fmpub.net
@@ -10719,7 +10662,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 tour.cineble.com
 127.0.0.1 tp2.beap.gemini.yahoo.com
 127.0.0.1 tpads.ovguide.com
-127.0.0.1 tpc.googlesyndication.com
 127.0.0.1 tps.doubleverify.com
 127.0.0.1 tps10216.doubleverify.com
 127.0.0.1 tps20519.doubleverify.com
@@ -11426,7 +11368,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.gigdnetwork.com
 127.0.0.1 www.gm4pgv.plus.com
 127.0.0.1 www.gmads.net
-127.0.0.1 www.googleadservices.com
 127.0.0.1 www.grabbit-rabbit.com
 127.0.0.1 www.greasypalm.com
 127.0.0.1 www.greatdexchange.com
