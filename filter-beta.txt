@@ -5,5 +5,20 @@
 
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
+techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
+www.reddit.com###reddit-logo
+||platform.twitter.com^$domain=arca.live|safefra.me
+||theverge.com^$script
+||wall.smaad.net^
+blog.naver.com#%#//scriptlet('set-constant', 'rightClickOpenYn', 'false')
+tistory.com#%#//scriptlet('abort-current-inline-script', 'document.oncontextmenu')
+!#if (adguard_app_ios || adguard_ext_safari) && !adguard_app_mac
+||link.coupang.com/re/AFFSDP
+techcrunch.com##div:has-text(Disable your adblocker)
+techcrunch.com##div:has-text(Support Us by Disabling Your Adblocker)
+techcrunch.com##html, body:style(overflow: auto !important; height: auto !important; position: static !important;)
+!#else
+ecosia.org#%#//scriptlet('trusted-set-cookie', 'ECFG', 'a=0:as=1:cs=0:dt=pc:f=n:fr=0:fs=1:l=en:lt=1789174192956:mc=en-us:nf=0:nt=0:pz=0:t=2:tt=0:tu=auto:wu=auto:ma=1')
+!#endif
 
 ! To be added on version 2026.xx.xx.
