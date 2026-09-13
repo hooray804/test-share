@@ -4,7 +4,8 @@
 ! Description: Do NOT use this filter.
 
 ! For a quick test
-! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif) missav01.com##+js(nowoif)
+! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif)
+
 techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
 www.reddit.com###reddit-logo
 ||platform.twitter.com^$domain=arca.live|safefra.me
@@ -12,6 +13,7 @@ www.reddit.com###reddit-logo
 ||wall.smaad.net^
 blog.naver.com#%#//scriptlet('set-constant', 'rightClickOpenYn', 'false')
 tistory.com#%#//scriptlet('abort-current-inline-script', 'document.oncontextmenu')
+
 !#if (adguard_app_ios || adguard_ext_safari) && !adguard_app_mac
 ||link.coupang.com/re/AFFSDP
 techcrunch.com##div:has-text(Disable your adblocker)
