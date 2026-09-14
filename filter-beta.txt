@@ -15,7 +15,6 @@ blog.naver.com#%#//scriptlet('set-constant', 'rightClickOpenYn', 'false')
 tistory.com#%#//scriptlet('abort-current-inline-script', 'document.oncontextmenu')
 
 !#if (adguard_app_ios || adguard_ext_safari) && !adguard_app_mac
-||link.coupang.com/re/AFFSDP
 techcrunch.com##div:has-text(Disable your adblocker)
 techcrunch.com##div:has-text(Support Us by Disabling Your Adblocker)
 techcrunch.com##html, body:style(overflow: auto !important; height: auto !important; position: static !important;)
