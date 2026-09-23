@@ -5,6 +5,12 @@
 
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif)
+||link.coupang.com/re/A*?subid=dynamicda$all,reason=수익링크
+||link.coupang.com/re/B*?subid=dynamicda$all,reason=test
+||link.coupang.com/re/C*?subid=dynamicda$reason=수익링크
+||link.coupang.com/re/D*?subid=dynamicda$reason=test
+||link.coupang.com/re/E$reason=수익링크
+||link.coupang.com/re/F$all
 
 techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
 www.reddit.com###reddit-logo
