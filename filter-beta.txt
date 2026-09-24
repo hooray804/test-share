@@ -5,6 +5,9 @@
 
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif)
+namu.wiki##div[class]:matches-css(position: sticky)
+namu.wiki##li:has(a > time):not(:has([href*='/raw/'])):upward(2)
+namu.wiki##div:has(img[data-doc]:not([data-doc^="/jump/"]):not([data-doc^="/w/"])):not(:has([id])), div:has(> div[id]:empty:only-child)
 
 techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
 www.reddit.com###reddit-logo
