@@ -1,5 +1,5 @@
 ! Title: someonewhocares.org DNS filter
-! Version: 2026.09.20
+! Version: 2026.09.27
 
 # This hosts file is brought to you by Dan Pollock and can be found at
 # http://someonewhocares.org/hosts/
