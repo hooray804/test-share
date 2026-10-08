@@ -5,7 +5,10 @@
 
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif)
-
+algumon.com##aside[aria-label="slot"]:has(> div.placement-space > div.placement-frame > ins.adsbygoogle)
+algumon.com##div[data-virtual-row-id]:has(> div.deal-feed-card > div.card-body span:has-text(작성자광고))
+algumon.com##div.py-2.px-2:has(> div.placement-space > div.placement-frame > ins.adsbygoogle)
+algumon.com##div.deal-row:has(> div.card > div.card-body > div > div > div > div[data-tip^="파트너스"])
 
 techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
 www.reddit.com###reddit-logo
