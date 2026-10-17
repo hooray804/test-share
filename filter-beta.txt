@@ -6,13 +6,15 @@
 ! For a quick test
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif)
 
+blog.naver.com#%#//scriptlet('set-constant', 'rightClickOpenYn', 'false')
 techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
+tistory.com#%#//scriptlet('abort-current-inline-script', 'document.oncontextmenu')
+wired.com##+js(set-cookie, pay_ent_sub, 1)
 www.reddit.com###reddit-logo
 ||platform.twitter.com^$domain=arca.live|safefra.me
 ||theverge.com^$script
 ||wall.smaad.net^
-blog.naver.com#%#//scriptlet('set-constant', 'rightClickOpenYn', 'false')
-tistory.com#%#//scriptlet('abort-current-inline-script', 'document.oncontextmenu')
+||assets.zephr.com/zephr-browser/$script,third-party
 
 !#if (adguard_app_ios || adguard_ext_safari) && !adguard_app_mac
 reddit.com###blocking-modal-contents
