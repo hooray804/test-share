@@ -4,7 +4,8 @@
 ! Description: Do NOT use this filter.
 
 ! For a quick test
-! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye) kissjav.*##+js(nowoif)
+! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
+! @@||cdn.segment.com/v1/projects/*/settings$domain=soomgo.com
 
 blog.naver.com#%#//scriptlet('set-constant', 'rightClickOpenYn', 'false')
 techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
