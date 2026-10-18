@@ -1,5 +1,5 @@
 ! Title: someonewhocares.org DNS filter
-! Version: 2026.10.11
+! Version: 2026.10.18
 
 # This hosts file is brought to you by Dan Pollock and can be found at
 # http://someonewhocares.org/hosts/
@@ -13,7 +13,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 04 Oct 2026 at 16:54:35 GMT
+# Last updated: Thu, 15 Oct 2026 at 17:57:51 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1555,6 +1555,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 askbot.com
 127.0.0.1 askto.net
 127.0.0.1 askubal.fr
+127.0.0.1 assistance.app-claude-ai.online
 127.0.0.1 assistcom.fr
 127.0.0.1 assodigitale.fr
 127.0.0.1 ast-grouope.fr
@@ -2890,6 +2891,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 refund-int3rac.com
 127.0.0.1 regclassboard.com
 127.0.0.1 reliezvous.fr
+127.0.0.1 reminderannual2reward.com
 127.0.0.1 renacious.nwwadq.cn
 127.0.0.1 renov-landes.fr
 127.0.0.1 rentacars.fr
