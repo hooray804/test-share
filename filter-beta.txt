@@ -13,7 +13,6 @@ tistory.com#%#//scriptlet('abort-current-inline-script', 'document.oncontextmenu
 wired.com##+js(set-cookie, pay_ent_sub, 1)
 www.reddit.com###reddit-logo
 ||platform.twitter.com^$domain=arca.live|safefra.me
-||theverge.com^$script
 ||wall.smaad.net^
 ||assets.zephr.com/zephr-browser/$script,third-party
 
