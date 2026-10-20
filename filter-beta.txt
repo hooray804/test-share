@@ -18,6 +18,7 @@ www.reddit.com###reddit-logo
 ||assets.zephr.com/zephr-browser/$script,third-party
 
 !#if (adguard_app_ios || adguard_ext_safari) && !adguard_app_mac
+news.naver.com##header[role="banner"], #goTop
 reddit.com###blocking-modal-contents
 reddit.com###configured-xpromo-bypassable_xpromo_nsfw_bypassable_cms
 reddit.com#%#//scriptlet('hide-in-shadow-dom', 'div.dialog-overlay.dialog-overlay-blur', '#configured-xpromo-unrated_block')
