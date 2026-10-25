@@ -28,6 +28,7 @@ techcrunch.com##div:has-text(Disable your adblocker)
 techcrunch.com##div:has-text(Support Us by Disabling Your Adblocker)
 techcrunch.com##html, body:style(overflow: auto !important; height: auto !important; position: static !important;)
 !#else
+www.dcinside.com##h1.dclogo
 ecosia.org#%#//scriptlet('trusted-set-cookie', 'ECFG', 'a=0:as=1:cs=0:dt=pc:f=n:fr=0:fs=1:l=en:lt=1789174192956:mc=en-us:nf=0:nt=0:pz=0:t=2:tt=0:tu=auto:wu=auto:ma=1')
 !#endif
 
