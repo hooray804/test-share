@@ -82,7 +82,6 @@ jobs:
           git commit -m "$COMMIT_MSG"
           git push origin main
 
-          # GitHub raw 서버 반영 대기 후 퍼지 실행
           echo "Waiting 3 seconds for GitHub raw sync..."
           sleep 3
 
