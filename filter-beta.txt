@@ -1,6 +1,6 @@
 ! Title: Personal Filter Beta
-! Version: 2026.11.02.0
-! TimeUpdated: 2026-11-02T06:57:27+00:00
+! Version: 2026.11.02.1
+! TimeUpdated: 2026-11-02T06:59:06+00:00
 ! Description: Do NOT use this filter.
 
 ! For a quick test assz
