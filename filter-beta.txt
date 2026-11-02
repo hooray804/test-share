@@ -3,7 +3,7 @@
 ! TimeUpdated: 2026-11-02T06:57:27+00:00
 ! Description: Do NOT use this filter.
 
-! For a quick test as
+! For a quick test assz
 ! heye.kr$$script:contains(www.pandalive.co.kr/evt/heye)
 ! @@||cdn.segment.com/v1/projects/*/settings$domain=soomgo.com
 
