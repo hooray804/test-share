@@ -13,9 +13,9 @@ techcrunch.com##div.jw-player-inline-promo.wp-block-techcrunch-jw-player-embed
 tistory.com#%#//scriptlet('abort-current-inline-script', 'document.oncontextmenu')
 wired.com##+js(set-cookie, pay_ent_sub, 1)
 www.reddit.com###reddit-logo
+||assets.zephr.com/zephr-browser/$script,third-party
 ||platform.twitter.com^$domain=arca.live|safefra.me
 ||wall.smaad.net^
-||assets.zephr.com/zephr-browser/$script,third-party
 
 !#if (adguard_app_ios || adguard_ext_safari) && !adguard_app_mac
 linkedin.com###public_post_contextual-sign-in
