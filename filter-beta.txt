@@ -35,12 +35,6 @@ ecosia.org#%#//scriptlet('trusted-set-cookie', 'ECFG', 'a=0:as=1:cs=0:dt=pc:f=n:
 ! To be added on version 2026.xx.xx.
 
 
-! Title: 애드가드 갤러리 필터
-! Version: 2026.11.11.1
-! TimeUpdated: 2026-11-11T06:44:46+00:00
-! Description: AdGuard, uBlock Origin, wBlock, Unicorn Pro, Brave Shields의 오차단 및 남은 광고와 안티 애드블록을 해결하는 실전압축 필터입니다.
-! Homepage: https://m.dcinside.com/gallog/cent8649
-
 
 ! Ads
 !
