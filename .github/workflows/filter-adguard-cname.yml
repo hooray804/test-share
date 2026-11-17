@@ -38,7 +38,6 @@ jobs:
               lines = f.readlines()
 
           filtered = []
-          in_cname = False
           in_mail_trackers = False
           started = False
           ended = False
@@ -49,67 +48,36 @@ jobs:
               if s.startswith("! Checksum:") or s.startswith("! Diff-Path:"):
                   continue
 
-              if not in_cname:
+              if not in_mail_trackers:
                   if s.startswith("!---") and i + 1 < len(lines):
                       nxt = lines[i + 1].strip()
-                      if (
-                          nxt.startswith("! SECTION: CNAME disguised tracking networks")
-                          or nxt.startswith("! NOTE: CNAME disguised tracking networks")
-                          or nxt.startswith("!-------------- CNAME mail trackers")
-                      ):
+                      if nxt.startswith("!-------------- CNAME mail trackers"):
                           continue
 
-                  if (
-                      s.startswith("! SECTION: CNAME disguised tracking networks")
-                      or (s.startswith("! NOTE: CNAME disguised tracking networks") and "end" not in s)
-                  ):
-                      in_cname = True
-                      in_mail_trackers = False
-                      started = True
-                      ended = False
-                      continue
-
                   if s.startswith("!-------------- CNAME mail trackers"):
-                      in_cname = True
                       in_mail_trackers = True
                       started = True
                       ended = False
                       continue
               else:
-                  if not in_mail_trackers:
-                      if s.startswith("! !SECTION: CNAME disguised tracking networks"):
-                          in_cname = False
-                          ended = True
-                          continue
-
-                      if s.startswith("! NOTE: CNAME disguised tracking networks end"):
-                          nxt = lines[i + 1].strip() if i + 1 < len(lines) else ""
-                          if not nxt.startswith("! !SECTION: CNAME disguised tracking networks"):
-                              in_cname = False
-                              ended = True
-                          continue
-                      continue
-                  else:
-                      if s.startswith("!---") and i + 1 < len(lines):
-                          nxt = lines[i + 1].strip()
-                          if nxt.startswith("!-------------- General (unsorted) url blocking"):
-                              in_cname = False
-                              in_mail_trackers = False
-                              ended = True
-                          else:
-                              continue
-                      elif s.startswith("!-------------- General (unsorted) url blocking"):
-                          in_cname = False
+                  if s.startswith("!---") and i + 1 < len(lines):
+                      nxt = lines[i + 1].strip()
+                      if nxt.startswith("!-------------- General (unsorted) url blocking"):
                           in_mail_trackers = False
                           ended = True
                       else:
                           continue
+                  elif s.startswith("!-------------- General (unsorted) url blocking"):
+                      in_mail_trackers = False
+                      ended = True
+                  else:
+                      continue
 
-              if not in_cname:
+              if not in_mail_trackers:
                   filtered.append(raw)
 
-          if not started or not ended or in_cname:
-              print(f"ERROR: boundary check failed (started={started}, ended={ended}, in_cname={in_cname})", file=sys.stderr)
+          if not started or not ended or in_mail_trackers:
+              print(f"ERROR: boundary check failed (started={started}, ended={ended}, in_mail_trackers={in_mail_trackers})", file=sys.stderr)
               sys.exit(1)
 
           with open("track.txt", "w", encoding="utf-8") as f:
@@ -129,7 +97,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: update $FILE (strip CNAME trackers)"
+          git commit -m "chore: update $FILE (strip CNAME mail trackers)"
           git push origin main
 
           echo "Waiting 300 seconds for GitHub raw sync..."
