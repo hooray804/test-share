@@ -39,6 +39,7 @@ jobs:
 
           filtered = []
           in_cname = False
+          in_mail_trackers = False
           started = False
           ended = False
 
@@ -48,26 +49,34 @@ jobs:
               if s.startswith("! Checksum:") or s.startswith("! Diff-Path:"):
                   continue
 
-              if not ended:
-                  if not in_cname:
-                      if s.startswith("!---") and i + 1 < len(lines):
-                          nxt = lines[i + 1].strip()
-                          if (
-                              nxt.startswith("! SECTION: CNAME disguised tracking networks")
-                              or nxt.startswith("! NOTE: CNAME disguised tracking networks")
-                              or nxt.startswith("!-------------- CNAME mail trackers")
-                          ):
-                              continue
-
+              if not in_cname:
+                  if s.startswith("!---") and i + 1 < len(lines):
+                      nxt = lines[i + 1].strip()
                       if (
-                          s.startswith("! SECTION: CNAME disguised tracking networks")
-                          or (s.startswith("! NOTE: CNAME disguised tracking networks") and "end" not in s)
-                          or s.startswith("!-------------- CNAME mail trackers")
+                          nxt.startswith("! SECTION: CNAME disguised tracking networks")
+                          or nxt.startswith("! NOTE: CNAME disguised tracking networks")
+                          or nxt.startswith("!-------------- CNAME mail trackers")
                       ):
-                          in_cname = True
-                          started = True
                           continue
-                  else:
+
+                  if (
+                      s.startswith("! SECTION: CNAME disguised tracking networks")
+                      or (s.startswith("! NOTE: CNAME disguised tracking networks") and "end" not in s)
+                  ):
+                      in_cname = True
+                      in_mail_trackers = False
+                      started = True
+                      ended = False
+                      continue
+
+                  if s.startswith("!-------------- CNAME mail trackers"):
+                      in_cname = True
+                      in_mail_trackers = True
+                      started = True
+                      ended = False
+                      continue
+              else:
+                  if not in_mail_trackers:
                       if s.startswith("! !SECTION: CNAME disguised tracking networks"):
                           in_cname = False
                           ended = True
@@ -80,6 +89,21 @@ jobs:
                               ended = True
                           continue
                       continue
+                  else:
+                      if s.startswith("!---") and i + 1 < len(lines):
+                          nxt = lines[i + 1].strip()
+                          if nxt.startswith("!-------------- General (unsorted) url blocking"):
+                              in_cname = False
+                              in_mail_trackers = False
+                              ended = True
+                          else:
+                              continue
+                      elif s.startswith("!-------------- General (unsorted) url blocking"):
+                          in_cname = False
+                          in_mail_trackers = False
+                          ended = True
+                      else:
+                          continue
 
               if not in_cname:
                   filtered.append(raw)
