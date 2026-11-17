@@ -1,0 +1,99 @@
+name: Filter AdGuard CNAME Trackers
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-filtered-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and strip CNAME tracker section
+        run: |
+          mkdir -p dist
+          curl -fsSL "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/refs/heads/master/platforms/windows/filters/3.txt" -o raw_3.txt
+
+          python3 - << 'EOF'
+          import sys
+
+          input_path = "raw_3.txt"
+          output_path = "track.txt"
+
+          with open(input_path, "r", encoding="utf-8") as f:
+              lines = f.readlines()
+
+          filtered_lines = []
+          in_cname_block = False
+          found_start = False
+          found_end = False
+
+          for i, raw_line in enumerate(lines):
+              line = raw_line.strip()
+
+              if not in_cname_block:
+                  if line.startswith("!---") and i + 1 < len(lines):
+                      next_line = lines[i + 1].strip()
+                      if "CNAME mail trackers" in next_line or next_line.startswith("! SECTION: CNAME disguised tracking networks"):
+                          continue
+
+                  if line.startswith("! SECTION: CNAME disguised tracking networks") or "CNAME mail trackers" in line:
+                      in_cname_block = True
+                      found_start = True
+                      continue
+
+                  filtered_lines.append(raw_line)
+              else:
+                  if line.startswith("! !SECTION: CNAME disguised tracking networks"):
+                      in_cname_block = False
+                      found_end = True
+                      continue
+
+                  if line.startswith("! NOTE: CNAME disguised tracking networks end"):
+                      next_line = lines[i + 1].strip() if i + 1 < len(lines) else ""
+                      if not next_line.startswith("! !SECTION: CNAME disguised tracking networks"):
+                          in_cname_block = False
+                          found_end = True
+                      continue
+
+          if not found_start or not found_end or in_cname_block:
+              print(f"ERROR: 경계 탐지 실패 (found_start={found_start}, found_end={found_end}, in_cname_block={in_cname_block})", file=sys.stderr)
+              sys.exit(1)
+
+          with open(output_path, "w", encoding="utf-8") as f:
+              f.writelines(filtered_lines)
+
+          print(f"원본 라인 수: {len(lines)}")
+          print(f"제거 후 라인 수: {len(filtered_lines)} (총 {len(lines) - len(filtered_lines)}줄 제거됨)")
+          EOF
+
+      - name: Preview output in workflow log
+        run: |
+          echo "=== 제거 경계 전후 샘플 확인 ==="
+          grep -n -C 3 "This section contains the list of tracking networks domains" dist/3_no_cname.txt || true
+
+      - name: Upload filtered file as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: adguard-3-no-cname
+          path: dist/3_no_cname.txt
+          retention-days: 7
+
+      - name: Commit and push updated filter list
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/3_no_cname.txt
+          if git diff --staged --quiet; then
+            echo "변경 사항이 없어 커밋을 건너뜁니다."
+          else
+            git commit -m "chore: update 3_no_cname.txt (strip CNAME trackers)"
+            git push
+          fi
