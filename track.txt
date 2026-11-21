@@ -1,7 +1,7 @@
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.1.16.4
-! TimeUpdated: 2026-11-21T01:08:11+00:00
+! Version: 2.1.16.6
+! TimeUpdated: 2026-11-21T05:08:00+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -118857,6 +118857,7 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||media-analytic.com/media.js
 ||seznam.cz/*/hit|
 ||seznam.cz/*/imp?k=
 ||fls-eu.amazon.de/*batch/*uedata*Gateway
@@ -134054,6 +134055,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||hospitablehall.com^
 ||hospitablehat.com^
 ||hostchutney.com^
+||housewheels.com^
 ||howdoesthislook.com^
 ||hubcapcafe.net^
 ||humbleroots.net^
