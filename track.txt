@@ -1,7 +1,7 @@
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.1.16.6
-! TimeUpdated: 2026-11-21T05:08:00+00:00
+! Version: 2.1.16.10
+! TimeUpdated: 2026-11-21T20:07:22+00:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -134126,6 +134126,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||itsviral.net^
 ||ivykiosk.com^
 ||j93557g.com^
+||jackalsmovie.com^
 ||jailbulb.com^
 ||jamexport.com^
 ||jazzdocumentary.com^
@@ -134240,6 +134241,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||locolava.com^
 ||locowater.com^
 ||logicalminds.net^
+||logomet.com^
 ||lonelyflavor.com^
 ||longingtrees.com^
 ||longloops.com^
@@ -134610,6 +134612,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||piquantpigs.com^
 ||piquantprice.com^
 ||piquantvortex.com^
+||pitmanmusic.com^
 ||pixeledhub.com^
 ||pixelmoonstudio.com^
 ||pixeltrouble.com^
@@ -134779,6 +134782,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||realitydocs.com^
 ||realizedoor.com^
 ||realizerecess.com^
+||rebatecircle.com^
 ||rebelclover.com^
 ||rebelhen.com^
 ||rebelswing.com^
@@ -134787,6 +134791,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||recenc.com^
 ||receptivereaction.com^
 ||recessrain.com^
+||recessremote.com^
 ||recipearena.com^
 ||recipediner.com^
 ||recipepile.net^
@@ -134799,6 +134804,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||redbricksoap.com^
 ||redexecs.com^
 ||redmillgroup.com^
+||reelboat.com^
 ||reelcombat.com^
 ||reflectpaint.com^
 ||refundradar.com^
